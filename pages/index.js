@@ -1,7 +1,13 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import HomeIntro from "../components/home/HomeIntro";
+import HomeVision from "../components/home/HomeVision";
+import Navbar from "../components/navbar";
 
 export default function Home() {
-  return <div>Tech Affairs Website</div>;
+  return (
+    <div>
+      <Navbar />
+      <HomeIntro></HomeIntro>
+      <HomeVision></HomeVision>
+    </div>
+  );
 }
