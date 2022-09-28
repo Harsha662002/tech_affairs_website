@@ -1,0 +1,40 @@
+.head {
+  background-color: #6a6464;
+  /* width: 1440px; */
+  /* height: 441px; */
+  color: black;
+  height: 250px;
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  /* margin: auto; */
+  /* vertical-align: middle; */
+}
+.clubname {
+}
+
+@media screen and (max-width: 800px) {
+  .head {
+    font-size: 70px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .head {
+    font-size: 55px;
+    height: 130px;
+
+  }
+}
+@media screen and (max-width: 400px) {
+  .head {
+    font-size: 35px;
+    height: 80px;
+
+  }
+}

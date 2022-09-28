@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +13,19 @@ a {
 
 * {
   box-sizing: border-box;
+} */
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Poppins&display=swap");
+:root {
+  --font: "Chakra Petch";
+  --white: "#FFFFFF";
+  --navbackgroud: "#1A374D";
+  /* --btncolor: "#406882"; */
+  --clubstextcolor: "#686D76";
+  --heading: "#000000";
+  --bluetone: "#406882";
 }
