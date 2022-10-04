@@ -1,19 +1,19 @@
 import React from "react";
 import styles from "./Vashist.module.css";
-import pic1 from "../../public/assests/images/recent/1.jpg";
+import logo from "../../public/assests/images/vashist/logo.jpeg";
 import Image from "next/image";
 
 const Vashist = (props) => {
-  let data2 = ["lecture", "competition", "hi", "hello", "how", "nice"];
+  let data2 = ["1", "2", "3", "4", "5", "6"];
 
-  let elements = [0, 1, 2, 3, 4, 5].map((item, index) => {
+  let elements = [0, 1, 2, 3, 4, 5].map((item) => {
     return (
       <div class={styles.box}>
         <div class={styles.bo}>
           <Image
             src={`/assests/images/${props.folder}/${item + 1}.jpg`}
-            width="1200px"
-            height="1200px"
+            width="1500px"
+            height="1500px"
           />
         </div>
         <h3 className={styles.he}>{data2[item]}</h3>
@@ -30,7 +30,7 @@ const Vashist = (props) => {
         {elements[2]}
         <div class={styles.box}>
           <div class={styles.bo}>
-            <Image src={pic1} width="1200px" height="1200px" />
+            <Image src={logo} width="1000px" height="1000px" />
           </div>
           <button className={styles.Button}>
             <a

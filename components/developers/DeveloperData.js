@@ -3,46 +3,49 @@ export const frontend = [
     name: "Harsha Vasireddy",
     rollno: "CS20B1033",
     image: "1.jpg",
+    key: 1,
   },
   {
     name: "Ch Manjunath Reddy",
     rollno: "CED19I007",
-    image: "1.jpg",
+    image: "2.jpg",
+    key: 2,
   },
   {
     name: "Avinash R Changrani",
     rollno: "CS20B1044",
-    image: "1.jpg",
+    image: "3.jpg",
+    key: 3,
   },
   {
     name: "K Sahana",
     rollno: "ESD19I001",
-    image: "1.jpg",
+    image: "4.jpg",
+    key: 4,
   },
   {
     name: "Vishnu Pratap Singh",
     rollno: "ME20B1040",
-    image: "1.jpg",
+    image: "5.jpg",
+    key: 5,
   },
   {
     name: "G Praneeth Kumar",
     rollno: "CS20B1130",
     image: "1.jpg",
+    key: 6,
   },
   {
     name: "M. Sheshank",
     rollno: "EC20B1100",
-    image: "1.jpg",
+    image: "7.jpg",
+    key: 7,
   },
   {
     name: "C.Poorna Chandra",
     rollno: "EC20B1086",
-    image: "1.jpg",
-  },
-  {
-    name: "Chaitanya Mude",
-    rollno: "ME20B1036",
-    image: "1.jpg",
+    image: "8.jpg",
+    key: 8,
   },
 ];
 
@@ -51,16 +54,19 @@ export const backend = [
     name: "Nandita M1",
     rollno: "CED19I056",
     image: "1.jpg",
+    key: 9,
   },
   {
     name: "Nandita M2",
     rollno: "CED19I056",
     image: "1.jpg",
+    key: 10,
   },
   {
     name: "Nandita M3",
     rollno: "CED19I056",
     image: "1.jpg",
+    key: 11,
   },
 ];
 
@@ -68,16 +74,19 @@ export const design = [
   {
     name: "Nandita M",
     rollno: "CED19I056",
-    image: "1.jpg",
+    image: "9.jpg",
+    key: 13,
   },
   {
     name: "Avinash R Changrani",
     rollno: "CS20B1044",
-    image: "1.jpg",
+    image: "3.jpg",
+    key: 14,
   },
   {
     name: "Vinay Kishore",
     rollno: "CS20B1032",
     image: "1.jpg",
+    key: 15,
   },
 ];
