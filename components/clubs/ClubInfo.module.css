@@ -18,6 +18,9 @@
   font-size: 32px;
   font-family: "ChakraPetch", sans-serif;
 }
+.flexrow2 p {
+  cursor: pointer;
+}
 .name {
   margin-top: 5px;
   margin-bottom: 5px;

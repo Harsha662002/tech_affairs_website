@@ -1,0 +1,51 @@
+.container {
+  padding: 20px;
+  position: fixed;
+  width: 40vw;
+  left: 30vw;
+  height: 40vh;
+  top: 30vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 11px;
+}
+.closebtn {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 50vw;
+    left: 25vw;
+    height: 36vh;
+    top: 32vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container {
+    width: 60vw;
+    left: 15vw;
+    height: 30vh;
+    top: 35vh;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    width: 74vw;
+    left: 8vw;
+    height: 36vh;
+    top: 32vh;
+  }
+}
+@media screen and (max-width: 300px) {
+  .container {
+    /* width: 90vw; */
+    left: 5vw;
+    height: 52vh;
+    top: 24vh;
+  }
+}

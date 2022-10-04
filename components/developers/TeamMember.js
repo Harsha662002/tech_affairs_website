@@ -5,7 +5,7 @@ export default function TeamMember(props) {
     <div className={TeamMemberCSS.team_element_full_photo}>
       <img
         className={TeamMemberCSS.team_element_photo}
-        src={`/assests/images/recent/${props.image}`}
+        src={`/assests/images/developers/${props.image}`}
         alt="Photo"
       />
       <div className={TeamMemberCSS.team_element_photo_background}></div>

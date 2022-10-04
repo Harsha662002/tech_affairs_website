@@ -5,7 +5,8 @@ export default function Team(props) {
   let elements = props.data.map((element) => {
     return (
       <TeamMember
-        key={element.rollno}
+        key={element.key}
+        keye={element.key}
         name={element.name}
         image={element.image}
         rollno={element.rollno}
