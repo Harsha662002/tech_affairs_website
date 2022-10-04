@@ -1,0 +1,21 @@
+import TeamMember from "./TeamMember.js";
+import Classes from "./Deve.module.css";
+
+export default function Team(props) {
+  let elements = props.data.map((element) => {
+    return (
+      <TeamMember
+        key={element.rollno}
+        name={element.name}
+        image={element.image}
+        rollno={element.rollno}
+      />
+    );
+  });
+  return (
+    <div>
+      <h1 className={Classes.heading}>{props.title}</h1>
+      <div className={Classes.team_container}>{elements}</div>
+    </div>
+  );
+}

@@ -1,9 +1,13 @@
 import React from "react";
 import Heading from "../components/heading/Heading";
 import ClubInfo from "../components/clubs/ClubInfo";
+import Head from "next/head";
 const Clubs = () => {
   return (
     <div>
+      <Head>
+        <title>Our Clubs</title>
+      </Head>
       <Heading name="OUR CLUBS" />
       <ClubInfo
         name="SAE"

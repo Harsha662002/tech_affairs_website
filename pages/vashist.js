@@ -6,9 +6,12 @@ import Vashist from "../components/vashist/Vashist";
 const vashist = () => {
   return (
     <div>
+      <Head>
+        <title>Vashist</title>
+      </Head>
       <Navbar></Navbar>
       <Heading name="VASHIST" />
-      <Vashist />
+      <Vashist folder="vashist" />
     </div>
   );
 };
