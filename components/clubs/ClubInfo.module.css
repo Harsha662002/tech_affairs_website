@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&display=swap");
+
+.card {
+  padding: 60px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.info {
+  width: 50%;
+  /* border: 2px solid burlywood; */
+}
+.mail {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 32px;
+  font-family: "ChakraPetch", sans-serif;
+}
+.name {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #222831;
+  font-size: 48px;
+  font-family: "ChakraPetch", sans-serif;
+  font-weight: 600;
+}
+.flexcol1 p {
+  font-size: 20px;
+}
+.flexrow2 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  justify-content: space-between;
+  color: #393e46;
+}
+.flexrow2 p {
+  font-size: 32px;
+  margin: 0px 5px;
+  font-family: "ChakraPetch", sans-serif;
+}
+/* .flexcol2 */
+.image {
+  width: 45%;
+  /* border: 2px solid cornflowerblue; */
+  background-color: #525252;
+  border-radius: 18px;
+}
+.flexcol2 {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-left: 30px;
+  /* align-items: center; */
+}
+.flexcol1 {
+  display: flex;
+  flex-direction: column;
+  color: #393e46;
+  /* width: 55%; */
+  /* align-items: center; */
+}
+.flexrow1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.block {
+  background-color: #474040;
+  width: 20%;
+  border-radius: 10px;
+}
+.container {
+  padding: 0px 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* @media screen and (max-width:1250px){
+      .info{
+          width: 55%;
+      }
+      .image{
+          width: 40%;
+  
+      }
+  }
+  @media screen and (max-width:1000px){
+      .info{
+          width: 65%;
+      }
+      .image{
+          width: 30%;
+  
+      }
+  } */
+@media screen and (max-width: 1200px) {
+  .flexrow2 p {
+    font-size: 25px;
+  }
+  .flexcol1 p {
+    font-size: 15px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .mail {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .info {
+    width: 55%;
+  }
+  .image {
+    width: 40%;
+  }
+  .flexrow2 p {
+    font-size: 25px;
+  }
+  .flexcol1 p {
+    font-size: 15px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .mail {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .info {
+    width: 55%;
+  }
+  .image {
+    width: 40%;
+  }
+  .flexrow2 p {
+    font-size: 21px;
+  }
+  .flexcol1 p {
+    font-size: 15px;
+  }
+  .name {
+    font-size: 35px;
+  }
+  .mail {
+    font-size: 23px;
+  }
+  .flexrow2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 690px) {
+  .container {
+    padding: 0px 10px;
+  }
+  .info {
+    width: 90%;
+  }
+  .image {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .flexrow2 p {
+    font-size: 21px;
+  }
+  .flexcol1 p {
+    font-size: 15px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .mail {
+    font-size: 18px;
+  }
+  .flexrow2 {
+    flex-wrap: wrap;
+  }
+  .flexcol2 {
+    margin-left: 15px;
+  }
+  .card {
+    /* flex-wrap: wrap; */
+    flex-direction: column-reverse !important;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .info {
+    width: 90%;
+  }
+  .image {
+    width: 90%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .flexrow2 p {
+    font-size: 17px;
+  }
+  .flexcol1 p {
+    font-size: 15px;
+  }
+  .name {
+    font-size: 22px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+  .flexrow2 {
+    flex-wrap: wrap;
+  }
+  .flexcol2 {
+    margin-left: 0px;
+  }
+  .card {
+    /* flex-wrap: wrap; */
+    flex-direction: column-reverse !important;
+    align-items: center;
+    padding: 20px;
+  }
+  .flexrow1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .block {
+    height: 50px;
+  }
+}
+
+/* @media screen and (max-width: 750px) {
+    .info {
+      width: 60%;
+    }
+    .image{
+      width: 35%;
+    }
+    .flexrow2 p {
+      font-size: 21px;
+    }
+    .flexcol1 p {
+      font-size: 15px;
+    }
+    .name {
+      font-size: 35px;
+    }
+    .mail {
+      font-size: 20px;
+    }
+   
+  } */
