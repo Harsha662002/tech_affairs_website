@@ -6,17 +6,22 @@ import { design } from "../components/developers/DeveloperData";
 
 import Classes from "../components/developers/Deve.module.css";
 import Heading from "../components/heading/Heading";
+import Navbar from "../components/Navbar";
 
 export default function Developers() {
   return (
-    <div className={Classes.container}>
+    <div>
       <Head>
         <title>Developers</title>
+        <link rel="shortcut icon" href="/assests/images/techaffairslogo.ico" />
       </Head>
+      <Navbar />
       <Heading name="TEAM" />
-      <Team title="FrontEnd Team" data={frontend} />
-      <Team title="BackEnd Team" data={backend} />
-      <Team title="Design Team" data={design} />
+      <div className={Classes.container}>
+        <Team title="FrontEnd Team" data={frontend} />
+        <Team title="BackEnd Team" data={backend} />
+        <Team title="Design Team" data={design} />
+      </div>
     </div>
   );
 }

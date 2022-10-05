@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Heading from "../components/heading/Heading";
 import GalleryHeading from "../components/gallery/GalleryHeading";
 import styles from "../components/gallery/gallery.module.css";
@@ -11,6 +11,7 @@ const gallery = () => {
     <div>
       <Head>
         <title>Gallery</title>
+        <link rel="shortcut icon" href="/assests/images/techaffairslogo.ico" />
       </Head>
       <Navbar></Navbar>
       <Heading name="GALLERY" />
