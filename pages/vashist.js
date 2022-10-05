@@ -8,6 +8,7 @@ const vashist = () => {
     <div>
       <Head>
         <title>Vashist</title>
+        <link rel="shortcut icon" href="/assests/images/techaffairslogo.ico" />
       </Head>
       <Navbar></Navbar>
       <Heading name="VASHIST" />

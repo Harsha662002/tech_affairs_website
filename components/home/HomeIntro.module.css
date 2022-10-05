@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap");
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 4%;
+  padding-right: 6%;
+  margin-top: 5%;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.text1 {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #1a374d;
+  width: 36%;
+  padding-left: 1.6%;
+  padding-top: 0.4%;
+  padding-bottom: 0.5%;
+  color: white;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex: 1;
+}
+.text2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+}
+.text3 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.7rem;
+  padding-left: 2%;
+  color: #393e46;
+  padding-right: 15%;
+}
+.line {
+  padding-left: 2%;
+}
+.text4 {
+  margin-top: 3%;
+  padding-left: 2%;
+  margin-bottom: 3%;
+  font-size: 1.2rem;
+  color: #686d76;
+  border-left: 3.1px solid #393e46;
+}
+
+.buttons {
+  padding-left: 1.8%;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.button1 a {
+  color: white;
+}
+
+.button2 a {
+  color: #406882;
+}
+
+button.button1 {
+  background-color: #406882;
+  font-family: "Chakra Petch", sans-serif;
+  border: 3px solid #406882;
+  font-size: 1.2rem;
+  margin: 0%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+button.button2 {
+  background-color: white;
+  font-family: "Chakra Petch", sans-serif;
+  border: 3px solid #406882;
+  font-size: 1.2rem;
+  margin: 0%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+.picture {
+  height: 50vh;
+  width: 50vw;
+  border-radius: 4%;
+}
+
+button.button1:hover {
+  background-color: white;
+}
+button.button2:hover {
+  background-color: #406882;
+}
+
+.button1 a:hover {
+  color: #406882;
+}
+
+.button2 a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .text1 {
+    width: 36%;
+    font-size: 1rem;
+  }
+
+  .text2 {
+    font-size: 3rem;
+  }
+
+  .text3 {
+    font-size: 1.2rem;
+  }
+
+  .text4 {
+    font-size: 1rem;
+  }
+
+  .picture {
+    height: 60vh;
+    width: 60vw;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .text1 {
+    width: 36%;
+    font-size: 0.8rem;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+
+  .text2 {
+    font-size: 2.5rem;
+  }
+
+  .text3 {
+    font-size: 1rem;
+  }
+
+  .text4 {
+    font-size: 0.8rem;
+  }
+
+  .picture {
+    height: 45vh;
+    width: 70vw;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  .text1 {
+    width: 40%;
+    font-size: 0.5rem;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+
+  .text2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .text3 {
+    font-size: 0.75rem;
+  }
+
+  .text4 {
+    font-size: 0.5rem;
+  }
+
+  .picture {
+    height: 45vh;
+    width: 80vw;
+  }
+
+  button.button1 {
+    font-size: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  button.button2 {
+    font-size: 0.5rem;
+  }
+}

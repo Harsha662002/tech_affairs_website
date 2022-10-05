@@ -1,5 +1,4 @@
-import Head from "next/head";
-import Image from "next/image";
+import Heading from "../heading/Heading";
 import styles from "./About.module.css";
 
 export default function Home() {
@@ -22,7 +21,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className={styles.heading}>ABOUT US</div>
+      <Heading name="ABOUT US" />
       <div className={styles.details}>
         <button className={styles.mission} onClick={missionDisplay}>
           MISSION

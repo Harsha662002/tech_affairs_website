@@ -21,19 +21,24 @@
 
 @media screen and (max-width: 800px) {
   .head {
-    font-size: 70px;
     height: 200px;
+  }
+
+  .head p {
+    font-size: 4rem;
   }
 }
 @media screen and (max-width: 600px) {
   .head {
-    font-size: 55px;
     height: 130px;
+  }
+
+  .head p {
+    font-size: 3.5rem;
   }
 }
 @media screen and (max-width: 400px) {
   .head {
-    font-size: 35px;
     height: 80px;
   }
 }

@@ -1,20 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap");
 
-.heading {
-  font-size: 3rem;
-  font-family: "Chakra Petch", sans-serif;
-  width: 100%;
-  min-height: 40vh;
-  text-align: center;
-  background-color: #6a6464;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  flex: 1;
-  font-weight: 700;
-}
-
 .details {
   font-family: "Chakra Petch", sans-serif;
   font: 900;
@@ -106,9 +91,6 @@ button.mission:hover {
 @media (min-width: 800px) {
   .details {
     font-size: 3rem;
-  }
-  .heading {
-    font-size: 5rem;
   }
   .content {
     font-size: 2rem;

@@ -30,15 +30,15 @@ export const frontend = [
     key: 5,
   },
   {
-    name: "G Praneeth Kumar",
-    rollno: "CS20B1130",
-    image: "1.jpg",
-    key: 6,
-  },
-  {
     name: "M. Sheshank",
     rollno: "EC20B1100",
     image: "7.jpg",
+    key: 6,
+  },
+  {
+    name: "G Praneeth Kumar",
+    rollno: "CS20B1130",
+    image: "1.jpg",
     key: 7,
   },
   {

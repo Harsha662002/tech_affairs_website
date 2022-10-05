@@ -2,12 +2,15 @@ import React from "react";
 import Heading from "../components/heading/Heading";
 import ClubInfo from "../components/clubs/Clubinfo";
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 const Clubs = () => {
   return (
     <div>
       <Head>
         <title>OUR CLUBS</title>
+        <link rel="shortcut icon" href="/assests/images/techaffairslogo.ico" />
       </Head>
+      <Navbar />
       <Heading name="OUR CLUBS" />
       <ClubInfo
         name="SAE"
