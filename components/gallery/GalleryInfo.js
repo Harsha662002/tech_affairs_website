@@ -8,10 +8,10 @@ const GalleryInfo = (props) => {
   for (let i = 0; i < length; i++) {
     data.push(i);
   }
-  let elements = data.map((item) => {
+  let elements = data.map((item, index) => {
     return (
       <Image
-        key={item}
+        key={index}
         src={`/assests/images/${props.folder}/${item + 1}.jpg`}
         width="1200px"
         height="1200px"

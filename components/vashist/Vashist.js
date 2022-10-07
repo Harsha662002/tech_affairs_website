@@ -2,23 +2,22 @@ import React from "react";
 import styles from "./Vashist.module.css";
 import logo from "../../public/assests/images/vashist/logo.jpeg";
 import Image from "next/image";
+import ImageComponent from "../ImageComponent";
 
 const Vashist = (props) => {
-  let data2 = ["1", "2", "3", "4", "5", "6"];
-
-  let elements = [0, 1, 2, 3, 4, 5].map((item) => {
+  let length = 6;
+  let data = [];
+  for (let i = 0; i < length; i++) {
+    data.push(i);
+  }
+  let elements = data.map((item, index) => {
     return (
-      <div class={styles.box}>
-        <div class={styles.bo}>
-          <Image
-            key={item}
-            src={`/assests/images/${props.folder}/${item + 1}.jpg`}
-            width="1500px"
-            height="1500px"
-          />
-        </div>
-        <h3 className={styles.he}>{data2[item]}</h3>
-      </div>
+      <ImageComponent
+        key={index}
+        folder={props.folder}
+        item={item + 1}
+        dataA={data}
+      />
     );
   });
 
