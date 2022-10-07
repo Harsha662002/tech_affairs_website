@@ -1,5 +1,5 @@
-import HomeIntro from "../components/home/homeIntro";
-import HomeVision from "../components/home/homeVision";
+import HomeIntro from "../components/home/homeintro";
+import HomeVision from "../components/home/homevision";
 import Navbar from "../components/navbar";
 import Head from "next/head";
 export default function Home() {
