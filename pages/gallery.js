@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import Heading from "../components/heading/heading";
-import GalleryHeading from "../components/gallery/galleryHeading";
+import GalleryHeading from "../components/gallery/galleryheading";
 import styles from "../components/gallery/gallery.module.css";
-import GalleryInfo from "../components/gallery/galleryInfo";
+import GalleryInfo from "../components/gallery/galleryinfo";
 import Head from "next/head";
 
 const gallery = () => {
