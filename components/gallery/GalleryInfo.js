@@ -11,6 +11,7 @@ const GalleryInfo = (props) => {
   let elements = data.map((item) => {
     return (
       <Image
+        key={item}
         src={`/assests/images/${props.folder}/${item + 1}.jpg`}
         width="1200px"
         height="1200px"

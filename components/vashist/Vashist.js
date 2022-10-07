@@ -11,6 +11,7 @@ const Vashist = (props) => {
       <div class={styles.box}>
         <div class={styles.bo}>
           <Image
+            key={item}
             src={`/assests/images/${props.folder}/${item + 1}.jpg`}
             width="1500px"
             height="1500px"
