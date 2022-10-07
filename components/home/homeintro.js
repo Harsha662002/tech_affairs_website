@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./homeIntro.module.css";
+import styles from "./homeintro.module.css";
 import Image from "next/image";
 import Link from "next/link";
 const HomeIntro = () => {
