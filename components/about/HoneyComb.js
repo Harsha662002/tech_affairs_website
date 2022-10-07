@@ -1,20 +1,19 @@
 import HoneyCell from './HoneyCell'
+import {Facultydetails} from './Details.js'
+import {Pocdetails} from './Details.js'
+import {Rmcdetails} from './Details.js'
+import {Pmcdetails} from './Details.js'
+import {Picsdetails} from './Details.js'
+import {Teamsdetails} from './Details.js'
+import {Sponsorshipdetails} from './Details.js'
 import style from './honeycomb.module.css'
 import RMC from './ResourceMangementCommitte'
-import Data from './Details.json'
 import Faculty from './Faculty'
 import PMC from './ProductManagementCommitte'
 import Pics from './Pics'
 import POC from './ProductOutreachCommitte'
 import Teams from './Teams'
 function hexagon() {
-  const Facultydetails = Data.Faculty;
-  const Pocdetails = Data.PublicOutreachTeam;
-  const Rmcdetails = Data.ResourceManagementCommitte;
-  const Pmcdetails = Data.ProductManagementCommitte;
-  const Picsdetails = Data.Pics;
-  const Teamsdetails = Data.Teams;
-  const Sponsorshipdetails = Data.Sponsorship;
   return (
     <>
       <div className={style.container}>
