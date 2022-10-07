@@ -1,8 +1,8 @@
 import React from "react";
-import Heading from "../components/heading/Heading";
-import ClubInfo from "../components/clubs/Clubinfo";
+import Heading from "../components/heading/heading";
+import ClubInfo from "../components/clubs/clubinfo";
 import Head from "next/head";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 const Clubs = () => {
   return (
     <div>
