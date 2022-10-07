@@ -1,9 +1,9 @@
 import React from "react";
-import AboutIntro from "../components/about/AboutIntro";
-import AboutTeam from "../components/about/AboutTeam";
+import AboutIntro from "../components/about/aboutintro";
+import AboutTeam from "../components/about/aboutteam";
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Hexagon from "../components/about/HoneyComb";
+import Navbar from "../components/navbar";
+import Hexagon from "../components/about/honeycomb";
 const about = () => {
   return (
     <div>

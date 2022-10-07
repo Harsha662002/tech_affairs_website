@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap");
+
+.details {
+  font-family: "Chakra Petch", sans-serif;
+  font: 900;
+  display: flex;
+  font-size: 2.01rem;
+  min-height: 20vh;
+  background-color: rgb(241, 238, 238);
+  justify-content: space-between;
+  flex: 1;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+.vl {
+  border-left: 3px solid rgb(113, 115, 113);
+  height: 8%;
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+  top: 46%;
+}
+
+.mission {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vision {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button.vision,
+button.mission {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  position: relative;
+}
+button.vision:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 0.08em;
+  width: 0;
+  left: 0;
+  bottom: 25%;
+  transition: 0.3s;
+}
+button.vision:hover:after {
+  width: 100%;
+}
+button.mission:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 0.08em;
+  width: 0;
+  left: 0;
+  bottom: 25%;
+  transition: 0.3s;
+}
+button.mission:hover:after {
+  width: 100%;
+}
+
+button.vision:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+button.mission:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  padding: 0% 5%;
+  font-size: 1.2rem;
+  padding-top: 2%;
+}
+
+@media (min-width: 800px) {
+  .details {
+    font-size: 3rem;
+  }
+  .content {
+    font-size: 2rem;
+  }
+}

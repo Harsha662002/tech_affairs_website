@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Team from "../components/developers/Team";
-import { frontend } from "../components/developers/DeveloperData";
-import { backend } from "../components/developers/DeveloperData";
-import { design } from "../components/developers/DeveloperData";
+import Team from "../components/developers/team";
+import { frontend } from "../components/developers/developerdata";
+import { backend } from "../components/developers/developerdata";
+import { design } from "../components/developers/developerdata";
 
-import Classes from "../components/developers/Deve.module.css";
-import Heading from "../components/heading/Heading";
-import Navbar from "../components/Navbar";
+import Classes from "../components/developers/deve.module.css";
+import Heading from "../components/heading/heading";
+import Navbar from "../components/navbar";
 
 export default function Developers() {
   return (
