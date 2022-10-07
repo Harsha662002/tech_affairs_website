@@ -1,4 +1,4 @@
-import HomeIntro from "../components/home/homeintro";
+import HomeIntro from "../components/home/homentro";
 import HomeVision from "../components/home/homevision";
 import Navbar from "../components/navbar";
 import Head from "next/head";
