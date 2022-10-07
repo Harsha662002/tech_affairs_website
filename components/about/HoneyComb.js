@@ -18,7 +18,7 @@ function hexagon() {
     <>
       <div className={style.container}>
         <div className={style.pics}>
-          <h1>Pic's</h1>
+          <h1>PicS</h1>
           <Pics details={Picsdetails} />
         </div>
         <div className={style.pics}>

@@ -2,6 +2,7 @@ import * as React from "react";
 import navbarcss from "./Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const useViewport = () => {
   const [width, setWidth] = React.useState(0);
@@ -34,29 +35,29 @@ const MobileNavbar = () => {
         <p className={navbarcss.title}>Technical Affairs</p>
       </h2>
       <div className={navbarcss.alignitems}>
-        <a href="/clubs" className={!close && navbarcss.hide}>
-          Clubs
-        </a>
-        <a href="/about" className={!close && navbarcss.hide}>
-          About
-        </a>
-        <a href="/gallery" className={!close && navbarcss.hide}>
-          Gallery
-        </a>
-        <a href="/" className={!close && navbarcss.hide}>
-          Events
-        </a>
-        <a href="/vashist" className={!close && navbarcss.hide}>
-          Vashist
-        </a>
-        <a
+        <Link href="/clubs" className={!close && navbarcss.hide}>
+          <a>Clubs</a>
+        </Link>
+        <Link href="/about" className={!close && navbarcss.hide}>
+          <a>About</a>
+        </Link>
+        <Link href="/gallery" className={!close && navbarcss.hide}>
+          <a>Gallery</a>
+        </Link>
+        <Link href="/" className={!close && navbarcss.hide}>
+          <a>Events</a>
+        </Link>
+        <Link href="/vashist" className={!close && navbarcss.hide}>
+          <a>Vashist</a>
+        </Link>
+        <Link
           href="http://iiitdm.ac.in/"
           target="_blank"
           rel="noopener noreferrer"
           className={!close && navbarcss.hide}
         >
-          IIITDM Page
-        </a>
+          <a>IIITDM Page</a>
+        </Link>
       </div>
       <p onClick={collapseNavbar} className={navbarcss.collapse}>
         <FontAwesomeIcon icon={faBars} />
@@ -76,18 +77,28 @@ const DesktopNavbar = () => {
         <p className={navbarcss.title}>Technical Affairs</p>
       </h2>
       <div className={navbarcss.alignitems}>
-        <a href="/clubs">Clubs</a>
-        <a href="/about">About</a>
-        <a href="/gallery">Gallery</a>
-        <a href="/">Events</a>
-        <a href="/vashist">Vashist</a>
-        <a
+        <Link href="/clubs">
+          <a>Clubs</a>
+        </Link>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+        <Link href="/gallery">
+          <a>Gallery</a>
+        </Link>
+        <Link href="/">
+          <a>Events</a>
+        </Link>
+        <Link href="/vashist">
+          <a>Vashist</a>
+        </Link>
+        <Link
           href="http://iiitdm.ac.in/"
           target="_blank"
           rel="noopener noreferrer"
         >
           IIITDM Page
-        </a>
+        </Link>
       </div>
     </div>
   );

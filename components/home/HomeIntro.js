@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./HomeIntro.module.css";
 import Image from "next/image";
-
+import Link from "next/link";
 const HomeIntro = () => {
   return (
     <div className={styles.container}>
@@ -26,10 +26,14 @@ const HomeIntro = () => {
         <div>
           <div className={styles.buttons}>
             <button className={styles.button1}>
-              <a href="/clubs">Know More</a>
+              <Link href="/clubs">
+                <a>Know More</a>
+              </Link>
             </button>
             <button className={styles.button2}>
-              <a href="/about">Contact us</a>
+              <Link href="/about">
+                <a>Contact Us</a>
+              </Link>
             </button>
           </div>
         </div>
