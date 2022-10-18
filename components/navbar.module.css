@@ -63,9 +63,12 @@
 .collapse {
   font-size: 200%;
   margin-top: 5px;
+  display: none;
   width: 30px;
   cursor: pointer;
+  float: right;
 }
+
 .collapseon {
   font-size: 200%;
   /* display: none; */
@@ -96,6 +99,18 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .title {
+    margin-left: 5px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .collapse {
     display: block;
@@ -120,13 +135,17 @@
     margin-left: 0px;
   }
   .logo {
-    width: 45px !important;
-    height: 45px !important;
+    width: 40px !important;
+    height: 40px !important;
     min-width: auto !important;
     max-width: auto !important;
     min-height: auto !important;
     max-height: auto !important;
     margin-right: 4px;
+  }
+
+  .alignitems a {
+    font-size: 1.2rem;
   }
 }
 
