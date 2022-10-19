@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap");
+
+.body {
+  margin-top: 5rem;
+  font-family: "Chakra Petch", sans-serif;
+  background-color: white;
+  padding: 16px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.circles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(206, 199, 199);
+  border-radius: 100%;
+}
+
+.content {
+  margin-top: 20px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 60px;
+}
+
+.bground {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #406882;
+  padding: 4% 12%;
+  margin-bottom: 4rem;
+}
+
+.circ {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(206, 199, 199);
+  border-radius: 100%;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 7%;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.Students,
+.Enterprise,
+.Press,
+.Support {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.linkheads {
+  /* padding-bottom: 4%; */
+  border-bottom: 2px solid rgb(37, 36, 36);
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer {
+  border-top: 3px solid black;
+  display: flex;
+  /* padding-top: 3%; */
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  margin-left: 0.5rem;
+  margin-right: 70%;
+}
+
+.head3 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.footcontent a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #000;
+}
+
+.instagram,
+.linkedIn,
+.mail {
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .container2 {
+    margin-right: 20%;
+  }
+
+  .head3 {
+    font-size: 1.2rem;
+  }
+
+  .footcontent a {
+    font-size: 1rem;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .circle,
+  .circ {
+    height: 60px;
+    width: 60px;
+    margin-left: 2px;
+  }
+
+  .content {
+    font-size: 1rem;
+  }
+
+  .linkheads {
+    font-size: 1rem;
+  }
+
+  .linkheads a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container2 {
+    margin-right: 50%;
+  }
+
+  .circle,
+  .circ {
+    height: 80px;
+    width: 80px;
+    margin-left: 5px;
+  }
+}
