@@ -22,10 +22,6 @@ function hexagon() {
           <Pics details={Picsdetails} />
         </div>
         <div className={style.pics}>
-          <h1>Faculty Advisor</h1>
-          <Faculty details={Facultydetails} />
-        </div>
-        <div className={style.pics}>
           <h1>Teams</h1>
           <Teams details={Teamsdetails} />
         </div>
@@ -45,6 +41,7 @@ function hexagon() {
           <h1>Sponsorship Committee</h1>
           <ul className={style.honeycomb} lang="es">
             <HoneyCell details={Sponsorshipdetails[0]} />
+            <HoneyCell details={Sponsorshipdetails[1]} />
             <li
               className={`${style.honeycombcell},${style.honeycomb_placeholder}`}
             ></li>
