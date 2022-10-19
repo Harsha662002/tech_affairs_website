@@ -4,7 +4,7 @@ export const Facultydetails = [
     phone: "+91-44-27476366",
     email: "sudhir@iiitdm.ac.in",
     position: "Faculty Advisor - EPIC",
-    image: "girl.jpg",
+    image: "sudhir.jpg",
     rollnumber: " ",
   },
   {
@@ -12,7 +12,7 @@ export const Facultydetails = [
     phone: "+91-44-27476346",
     email: "masila@iiitdm.ac.in ",
     position: "Faculty Advisor - CS Club",
-    image: "vamsi.jpg",
+    image: "Masilamani.jpg",
     rollnumber: " ",
   },
   {
@@ -20,7 +20,7 @@ export const Facultydetails = [
     phone: "+91 44 2747 6337",
     email: "srijith@iiitdm.ac.in",
     position: "Faculty Advisor - OSA",
-    image: "boy.jpg",
+    image: "srijith.jpg",
     rollnumber: " ",
   },
   {
@@ -28,7 +28,7 @@ export const Facultydetails = [
     phone: "+91 44 2747 6121",
     email: "orra@iiitdm.ac.in",
     position: "Co-Faculty Advisor - SAE",
-    image: "test.jpg",
+    image: "kashfull.jpg",
     rollnumber: " ",
   },
   {
@@ -36,7 +36,7 @@ export const Facultydetails = [
     phone: " ",
     email: "karthikc@iiitdm.ac.in",
     position: "Faculty Advisor - AUV",
-    image: "test.jpg",
+    image: "karthik.jpg",
     rollnumber: " ",
   },
   {
@@ -44,7 +44,7 @@ export const Facultydetails = [
     phone: " ",
     email: "rampadhy@iiitdm.ac.in",
     position: "Faculty Advisor - GDSC",
-    image: "test.jpg",
+    image: "rampadhy.jpg",
     rollnumber: " ",
   },
   {
@@ -61,7 +61,7 @@ export const Picsdetails = [
     phone: " ",
     email: "parvathydas@iiitdm.ac.in ",
     position: "PIC Extracurricular activites and Government Pragma",
-    image: "test.jpg",
+    image: "parvathy.jpg",
     rollnumber: " ",
   },
   {
@@ -69,7 +69,7 @@ export const Picsdetails = [
     phone: "+91-44-27476343",
     email: "sivaselvanb@iiitdm.ac.in",
     position: "Dean Student affairs",
-    image: "test.jpg",
+    image: "sivaselvan.jpg",
     rollnumber: " ",
   },
   {
@@ -114,6 +114,32 @@ export const Pocdetails = [
     image: "test.jpg",
     rollnumber: "CS21B2044",
   },
+  {
+    name: "Sakthiprian S",
+    phone: "9791022154",
+    email: "ec21b1075@iiitdm.ac.in",
+    position: "Public Outreach Committee",
+    image: "test.jpg",
+    rollnumber: "EC21B1075",
+  },
+
+  {
+    name: "K Jai Krishna",
+    phone: "9789998350",
+    email: "cs21b1088@iiitdm.ac.in",
+    position: "Public Outreach Committee",
+    image: "test.jpg",
+    rollnumber: "CS21B1088",
+  },
+
+  {
+    name: "ROHIT GUPTA",
+    phone: "7320852074",
+    email: "me21b1055@iiitdm.ac.in",
+    position: "Public Outreach Committee",
+    image: "test.jpg",
+    rollnumber: "	ME21B1055",
+  },
 ];
 export const Rmcdetails = [
   {
@@ -132,7 +158,7 @@ export const Rmcdetails = [
     phone: 8056414751,
     email: "mdm19b010@iiitdm.ac.in",
     position: "Resource Management Committee - Co Lead",
-    image: "test.jpg",
+    image: "jayanthan.jpg",
   },
   {
     name: "Manas Narayan",
@@ -177,8 +203,8 @@ export const Pmcdetails = [
     rollnumber: "CS20B1033",
     phone: 9642287347,
     email: "cs20b1033@iiitdm.ac.in",
-    position: "Project Management Committee",
-    image: "test.jpg",
+    position: "Project Management Committee - Co Lead",
+    image: "Harsha.jpg",
   },
   {
     name: "A Vinay Kishore",
@@ -243,7 +269,7 @@ export const Teamsdetails = [
     phone: 9894317341,
     email: "mdm19b024@iiitdm.ac.in",
     position: "Technical Affairs Secretary",
-    image: "test.jpg",
+    image: "secretary.jpg",
   },
   {
     name: "Praneeth Kumar G",
@@ -252,16 +278,25 @@ export const Teamsdetails = [
     phone: 9393107783,
     email: "cs20b1130@iiitdm.ac.in",
     position: "Technical Affairs Joint Secretary",
-    image: "test.jpg",
+    image: "joint_sec.jpg",
   },
 ];
 export const Sponsorshipdetails = [
   {
     name: "Ravish Desh Anand",
     Year: 2020,
-    rollnumber: "Ec20b1052",
+    rollnumber: "EC20B1052",
     phone: 7671967392,
     email: "ec20b1052@iiitdm.ac.in",
+    position: "Sponsorship Committee",
+    image: "test.jpg",
+  },
+  {
+    name: "Ankit Kumar",
+    Year: 2021,
+    rollnumber: "ME21B1059",
+    phone: 6205746793,
+    email: "me21b1059@iiitdm.ac.in",
     position: "Sponsorship Committee",
     image: "test.jpg",
   },
