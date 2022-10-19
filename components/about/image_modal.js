@@ -32,7 +32,7 @@ function Image_modal(props) {
             </li>
             {props.details.rollnumber !== " " && (
               <li>
-                <b>Phone</b> : {props.details.rollnumber}
+                <b>Phone</b> : {props.details.phone}
               </li>
             )}
             <li>
