@@ -38,7 +38,7 @@ export const frontend = [
   {
     name: "G Praneeth Kumar",
     rollno: "CS20B1130",
-    image: "1.jpg",
+    image: "joint_sec.jpg",
     key: 7,
   },
   {
