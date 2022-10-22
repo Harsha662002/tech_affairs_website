@@ -1,0 +1,24 @@
+.bground {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #406882;
+  padding: 4% 12%;
+  margin-bottom: 4rem;
+  margin-top: 10rem;
+}
+
+.circ {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(206, 199, 199);
+  border-radius: 100%;
+}
+
+.bground img {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(206, 199, 199);
+  border-radius: 100%;
+}
