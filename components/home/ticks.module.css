@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
+
+.heading {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  margin-top: 10rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex_item_left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex_item_middle {
+  flex: 50%;
+  padding: 10px;
+}
+
+.flex_item_right {
+  padding: 10px;
+  flex: 50%;
+}
+
+.sub_flex_container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
+
+.sub_flex_item_left {
+  padding: 20px 6px 0;
+}
+
+.sub_flex_item_right {
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 10px;
+}
+
+.sub_flex_item_right_top {
+  font-weight: 600;
+  text-align: left;
+  font-size: 20px;
+}
+
+.sub_flex_item_right_bottom {
+  text-align: left;
+  font-size: 1rem;
+  padding-top: 8px;
+  color: grey;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .flex_container {
+    flex-direction: column;
+  }
+  .heading {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    margin-left: 1.2rem;
+  }
+  .sub_flex_item_left img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .sub_flex_item_right_top {
+    font-size: 1rem;
+  }
+
+  .sub_flex_item_right_bottom {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .flex_container {
+    flex-direction: column;
+  }
+
+  .heading {
+    margin-top: 5rem;
+    font-size: 2rem;
+    margin-left: 3rem;
+  }
+
+  .sub_flex_item_left img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .sub_flex_item_right_top {
+    font-size: 1.2rem;
+  }
+
+  .sub_flex_item_right_bottom {
+    font-size: 1rem;
+  }
+}
