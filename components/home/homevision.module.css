@@ -134,9 +134,22 @@
   padding: 10px;
 }
 
+@media (max-width: 1024px) {
+  .container2 {
+    margin-right: 50%;
+  }
+
+  .circle,
+  .circ {
+    height: 80px;
+    width: 80px;
+    margin-left: 5px;
+  }
+}
+
 @media (max-width: 767px) {
   .container2 {
-    margin-right: 20%;
+    margin-right: 28%;
   }
 
   .head3 {
@@ -168,18 +181,5 @@
 
   .linkheads a {
     font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  .container2 {
-    margin-right: 50%;
-  }
-
-  .circle,
-  .circ {
-    height: 80px;
-    width: 80px;
-    margin-left: 5px;
   }
 }
