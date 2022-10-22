@@ -22,3 +22,21 @@
   background-color: rgb(206, 199, 199);
   border-radius: 100%;
 }
+
+@media (max-width: 1024px) {
+  .circ,
+  .bground img {
+    height: 80px;
+    width: 80px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .circ,
+  .bground img {
+    height: 60px;
+    width: 60px;
+    margin-left: 2px;
+  }
+}
