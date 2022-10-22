@@ -1,7 +1,8 @@
 import HomeIntro from "../components/home/homeintro";
-import HomeVision from "../components/home/homevision";
 import Navbar from "../components/navbar";
 import Head from "next/head";
+import HomeVision from "../components/home/homevision";
+import Ticks from "../components/home/ticks";
 export default function Home() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <HomeIntro></HomeIntro>
+      <Ticks></Ticks>
       <HomeVision></HomeVision>
     </div>
   );
