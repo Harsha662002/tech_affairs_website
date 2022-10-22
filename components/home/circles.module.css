@@ -24,6 +24,9 @@
 }
 
 @media (max-width: 1024px) {
+  .bground {
+    margin-top: 4rem;
+  }
   .circ,
   .bground img {
     height: 80px;
@@ -33,6 +36,9 @@
 }
 
 @media (max-width: 767px) {
+  .bground {
+    margin-top: 2rem;
+  }
   .circ,
   .bground img {
     height: 60px;
