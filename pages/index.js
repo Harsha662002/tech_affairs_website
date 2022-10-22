@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Head from "next/head";
 import HomeVision from "../components/home/homevision";
 import Ticks from "../components/home/ticks";
+import Circles from "../components/home/circles";
 export default function Home() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <HomeIntro></HomeIntro>
+      <Circles></Circles>
       <Ticks></Ticks>
       <HomeVision></HomeVision>
     </div>
