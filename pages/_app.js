@@ -4,6 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect } from "react";
 import Head from "next/head";
 import Script from "next/script";
+import { config, library } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
