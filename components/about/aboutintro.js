@@ -13,7 +13,7 @@ export default function Home() {
     display.textContent = visionText.toString();
   }
   function missionContent() {
-    return "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt magni commodi unde saepe magnam delectus aliquam quis! Sunt, iusto odio. ";
+    return "The Technical Affairs of IIITDM Kancheepuram actively promotes and manages all technical projects, events, and activities that take place in the Institute.The council is made up of coordinators, faculty, and student members, all of whom are enthusiastically working to advance the institute's technological capabilities.";
   }
   function visionContent() {
     return "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate esse, exercitationem praesentium vitae magni necessitatibus nemo eos aliquid sequi.";
@@ -34,9 +34,11 @@ export default function Home() {
       <div className={styles.vl}> </div>
       <div id="content" className={styles.content}>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
-          magni commodi unde saepe magnam delectus aliquam quis! Sunt, iusto
-          odio.
+          The Technical Affairs of IIITDM Kancheepuram actively promotes and
+          manages all technical projects, events, and activities that take place
+          in the Institute. The council is made up of coordinators, faculty, and
+          student members, all of whom are enthusiastically working to advance
+          the institute's technological capabilities.
         </p>
       </div>
     </div>
