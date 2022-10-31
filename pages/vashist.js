@@ -7,11 +7,11 @@ const vashist = () => {
   return (
     <div>
       <Head>
-        <title>Vashist</title>
+        <title>Vashisht</title>
         <link rel="shortcut icon" href="/assests/images/techaffairslogo.ico" />
       </Head>
       <Navbar></Navbar>
-      <Heading name="VASHIST" />
+      <Heading name="VASHISHT" />
       <Vashist folder="vashist" />
     </div>
   );
