@@ -38,7 +38,7 @@ const Vashist = (props) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Vashist 2022
+              Vashisht 2022
             </a>
           </button>
         </div>
