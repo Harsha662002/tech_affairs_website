@@ -48,7 +48,7 @@ const ticks = () => {
               <img src={`/assests/images/check.png`} />
             </div>
             <div className={styles.sub_flex_item_right}>
-              <div className={styles.sub_flex_item_right_top}>VASHIHST</div>
+              <div className={styles.sub_flex_item_right_top}>VASHISHT</div>
               <div className={styles.sub_flex_item_right_bottom}>
                 To conduct the technical festival VASHISHT for students annually
                 at the institute level in collaboration with academic
