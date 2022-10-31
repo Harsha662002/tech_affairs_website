@@ -38,7 +38,7 @@ export default function Home() {
           manages all technical projects, events, and activities that take place
           in the Institute. The council is made up of coordinators, faculty, and
           student members, all of whom are enthusiastically working to advance
-          the institute's technological capabilities.
+          the institute`&#39;`s technological capabilities.
         </p>
       </div>
     </div>
