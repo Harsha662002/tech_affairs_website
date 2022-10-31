@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import Popup from "./popup";
-import clubcardcss from "./ClubInfo.module.css";
-import logo from "../../public/assests/images/check.png";
-import logo2 from "../../public/assests/images/2.jpg";
-import logo3 from "../../public/assests/images/team/boy.jpg";
+import clubcardcss from "./clubinfo.module.css";
 import Image from "next/image";
 const ClubInfo = (props) => {
   const [focus1, setFocus1] = useState(false);
