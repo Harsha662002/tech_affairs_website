@@ -26,7 +26,7 @@ const DesktopNavbar = () => {
     <div className={navbarcss.align}>
       <h2 className={navbarcss.head}>
         <img
-          src="/assests/images/techaffairslogo.png"
+          src="/assests/images/techaffairslogo2.png"
           className={navbarcss.logo}
         />
         <p className={navbarcss.title}>Technical Affairs</p>
@@ -45,7 +45,7 @@ const DesktopNavbar = () => {
           <a>Events</a>
         </Link>
         <Link href="/vashist">
-          <a>Vashist</a>
+          <a>Vashihst</a>
         </Link>
         <Link
           href="http://iiitdm.ac.in/"
@@ -71,10 +71,12 @@ const MobileNavbar = () => {
       <h2 className={navbarcss.head}>
         {/* <img src="../../public/images/logo.png" alt="" />  */}
         <img
-          src="/assests/images/techaffairslogo.png"
+          src="/assests/images/techaffairslogo2.png"
           className={navbarcss.logo}
         />
-        <p className={navbarcss.title}>Technical Affairs</p>
+        <Link href="/">
+          <a className={navbarcss.title}>Technical Affairs</a>
+        </Link>
       </h2>
       <div className={navbarcss.alignitems}>
         <div className={!close && navbarcss.hide}>
@@ -99,7 +101,7 @@ const MobileNavbar = () => {
         </div>
         <div className={!close && navbarcss.hide}>
           <Link href="/vashist" className={!close && navbarcss.hide}>
-            <a>Vashist</a>
+            <a>Vashihst</a>
           </Link>
         </div>
         <div className={!close && navbarcss.hide}>
