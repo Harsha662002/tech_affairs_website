@@ -9,18 +9,17 @@
   margin-top: 10rem;
 }
 
-.circ {
+/* .circ {
   width: 100px;
   height: 100px;
   background-color: rgb(206, 199, 199);
   border-radius: 100%;
-}
+} */
 
 .bground img {
   width: 100px;
   height: 100px;
-  background-color: rgb(206, 199, 199);
-  border-radius: 100%;
+  border-radius: 20%;
 }
 
 @media (max-width: 1024px) {
