@@ -41,7 +41,6 @@ function hexagon() {
           <h1>Sponsorship Committee</h1>
           <ul className={style.honeycomb} lang="es">
             <HoneyCell details={Sponsorshipdetails[0]} />
-            <HoneyCell details={Sponsorshipdetails[1]} />
             <li
               className={`${style.honeycombcell},${style.honeycomb_placeholder}`}
             ></li>
