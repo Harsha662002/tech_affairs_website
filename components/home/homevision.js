@@ -27,11 +27,11 @@ export default function vision() {
         </div>
       </div>
       <div className={styles.bground}>
-        <div className={styles.circ}> </div>
-        <div className={styles.circ}> </div>
-        <div className={styles.circ}> </div>
-        <div className={styles.circ}> </div>
-        <div className={styles.circ}> </div>
+        <img src="/assests/images/clubLogos/idc.png"></img>
+        <img src="/assests/images/clubLogos/mars.png"></img>
+        <img src="/assests/images/clubLogos/optica.jpg"></img>
+        <img src="/assests/images/clubLogos/roboticsclub.png"></img>
+        <img src="/assests/images/clubLogos/sae.jpg"></img>
       </div>
       <div className={styles.links}>
         <div className={styles.Students}>
