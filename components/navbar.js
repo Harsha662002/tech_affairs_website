@@ -45,7 +45,7 @@ const DesktopNavbar = () => {
           <a>Events</a>
         </Link>
         <Link href="/vashist">
-          <a>Vashihst</a>
+          <a>Vashisht</a>
         </Link>
         <Link
           href="http://iiitdm.ac.in/"
@@ -101,7 +101,7 @@ const MobileNavbar = () => {
         </div>
         <div className={!close && navbarcss.hide}>
           <Link href="/vashist" className={!close && navbarcss.hide}>
-            <a>Vashihst</a>
+            <a>Vashisht</a>
           </Link>
         </div>
         <div className={!close && navbarcss.hide}>
