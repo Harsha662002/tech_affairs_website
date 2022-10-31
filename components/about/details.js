@@ -102,7 +102,7 @@ export const Pocdetails = [
     name: "KARTHIKEYAN.S",
     phone: "8792385815",
     email: "ec21b1090@iiitdm.ac.in",
-    position: "Public Outreach Committee",
+    position: "Public Outreach Committee - Co Lead",
     image: "test.jpg",
     rollnumber: "EC21B1090",
   },
@@ -128,7 +128,7 @@ export const Pocdetails = [
     phone: "9789998350",
     email: "cs21b1088@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "test.jpg",
+    image: "JaiKrishna.jpg",
     rollnumber: "CS21B1088",
   },
 
@@ -149,7 +149,7 @@ export const Rmcdetails = [
     phone: 8197714735,
     email: "evd19i007@iiitdm.ac.in",
     position: "Resource Management Committee - Lead",
-    image: "test.jpg",
+    image: "Kishore.jpg",
   },
   {
     name: "Jayanthaan Haribaskar",
@@ -175,6 +175,15 @@ export const Rmcdetails = [
     rollnumber: "EC21B1004",
     phone: 9172194182,
     email: "ec21b1004@iiitdm.ac.in",
+    position: "Resource Management Committee",
+    image: "Ananya_Ravi.jpg",
+  },
+  {
+    name: "Sundar Subramanian S",
+    Year: 2021,
+    rollnumber: "ME21B1059",
+    phone: 6205746793,
+    email: "me21b1059@iiitdm.ac.in",
     position: "Resource Management Committee",
     image: "test.jpg",
   },
@@ -204,7 +213,7 @@ export const Pmcdetails = [
     phone: 9642287347,
     email: "cs20b1033@iiitdm.ac.in",
     position: "Project Management Committee - Co Lead",
-    image: "Harsha.jpg",
+    image: "Harsha.png",
   },
   {
     name: "A Vinay Kishore",
@@ -213,7 +222,7 @@ export const Pmcdetails = [
     phone: 8309999640,
     email: "cs20b1032@iiitdm.ac.in",
     position: "Project Management Committee",
-    image: "test.jpg",
+    image: "vinay.jpg",
   },
   {
     name: "Vishal A S",
@@ -231,7 +240,7 @@ export const Pmcdetails = [
     phone: 9360455144,
     email: "ec21b1042@iiitdm.ac.in",
     position: "Project Management Committee",
-    image: "test.jpg",
+    image: "Sibi.jpg",
   },
   {
     name: "KEERTHANA SRI S G",
@@ -282,15 +291,6 @@ export const Teamsdetails = [
   },
 ];
 export const Sponsorshipdetails = [
-  {
-    name: "Ravish Desh Anand",
-    Year: 2020,
-    rollnumber: "EC20B1052",
-    phone: 7671967392,
-    email: "ec20b1052@iiitdm.ac.in",
-    position: "Sponsorship Committee",
-    image: "test.jpg",
-  },
   {
     name: "Ankit Kumar",
     Year: 2021,
