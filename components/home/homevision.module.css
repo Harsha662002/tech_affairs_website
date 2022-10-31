@@ -61,6 +61,12 @@
   border-radius: 100%;
 }
 
+.bground img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+}
+
 .links {
   display: flex;
   flex-direction: row;
@@ -165,7 +171,7 @@
   }
 
   .circle,
-  .circ {
+  .bground img {
     height: 60px;
     width: 60px;
     margin-left: 2px;
