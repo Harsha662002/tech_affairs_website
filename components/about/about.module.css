@@ -84,8 +84,12 @@ button.mission:hover {
 .content {
   background-color: rgb(255, 255, 255);
   padding: 0% 5%;
-  font-size: 1.2rem;
   padding-top: 2%;
+}
+
+.content p {
+  font-size: 1.8rem;
+  text-align: center;
 }
 
 @media (min-width: 800px) {
