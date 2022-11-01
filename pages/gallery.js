@@ -21,8 +21,8 @@ const gallery = () => {
         <GalleryInfo subheading="Tech Expo" folder="recent" />
         <GalleryInfo subheading="Other Activities" folder="others" />
         <GalleryInfo subheading="Club Events" folder="ClubEvents" />
-        <Footer/>
       </div>
+      <Footer />
     </div>
   );
 };
