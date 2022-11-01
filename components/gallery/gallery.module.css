@@ -15,6 +15,11 @@
   align-items: center;
   /* padding: 1rem 6%; */
 }
+
+.con {
+  margin-bottom: 2.5rem;
+}
+
 .Head {
   text-align: center;
   padding: 2.5rem 0;
