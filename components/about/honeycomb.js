@@ -37,7 +37,7 @@ function hexagon() {
           <h1>Public Outreach Committee</h1>
           <POC details={Pocdetails} />
         </div>
-        <div className={style.pics}>
+        <div className={style.pics + " " + style.margin_spons}>
           <h1>Sponsorship Committee</h1>
           <ul className={style.honeycomb} lang="es">
             <HoneyCell details={Sponsorshipdetails[0]} />
