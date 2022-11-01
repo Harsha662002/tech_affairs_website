@@ -4,6 +4,7 @@ import Head from "next/head";
 import HomeVision from "../components/home/homevision";
 import Ticks from "../components/home/ticks";
 import Circles from "../components/home/circles";
+import Footer from "../components/footer";
 export default function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function Home() {
       <Circles></Circles>
       <Ticks></Ticks>
       <HomeVision></HomeVision>
+      <Footer></Footer>
     </div>
   );
 }
