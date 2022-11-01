@@ -27,13 +27,13 @@ export const frontend = [
     name: "Vishnu Pratap Singh",
     rollno: "ME20B1040",
     image: "5.jpg",
-    key: 5,
+    key: 6,
   },
   {
     name: "M. Sheshank",
     rollno: "EC20B1100",
     image: "7.jpg",
-    key: 6,
+    key: 5,
   },
   {
     name: "G Praneeth Kumar",
@@ -51,22 +51,10 @@ export const frontend = [
 
 export const backend = [
   {
-    name: "Nandita M1",
-    rollno: "CED19I056",
-    image: "1.jpg",
+    name: "Vinay Kishore",
+    rollno: "CS20B1032",
+    image: "10.jpg",
     key: 9,
-  },
-  {
-    name: "Nandita M2",
-    rollno: "CED19I056",
-    image: "1.jpg",
-    key: 10,
-  },
-  {
-    name: "Nandita M3",
-    rollno: "CED19I056",
-    image: "1.jpg",
-    key: 11,
   },
 ];
 
@@ -86,7 +74,7 @@ export const design = [
   {
     name: "Vinay Kishore",
     rollno: "CS20B1032",
-    image: "1.jpg",
+    image: "10.jpg",
     key: 15,
   },
 ];
