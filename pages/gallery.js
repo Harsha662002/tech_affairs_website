@@ -5,6 +5,7 @@ import GalleryHeading from "../components/gallery/galleryheading";
 import styles from "../components/gallery/gallery.module.css";
 import GalleryInfo from "../components/gallery/galleryinfo";
 import Head from "next/head";
+import Footer from "../components/footer";
 
 const gallery = () => {
   return (
@@ -20,6 +21,7 @@ const gallery = () => {
         <GalleryInfo subheading="Tech Expo" folder="recent" />
         <GalleryInfo subheading="Other Activities" folder="others" />
         <GalleryInfo subheading="Club Events" folder="ClubEvents" />
+        <Footer/>
       </div>
     </div>
   );
