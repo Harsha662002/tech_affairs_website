@@ -1,0 +1,185 @@
+.footer {
+  border-top: 3px solid black;
+  display: flex;
+  /* padding-top: 3%; */
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  margin-left: 0.5rem;
+  margin-right: 50%;
+}
+
+.head3 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+}
+
+.footcontent {
+  margin-top: 1rem;
+}
+
+.footcontent a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #000;
+}
+
+.instagram,
+.linkedIn,
+.mail {
+  padding: 10px;
+}
+
+.footerButtons a {
+  text-decoration: none;
+  color: #000;
+}
+
+.button1 a,
+.button3 a {
+  color: white;
+}
+
+.button2 a {
+  color: #406882;
+}
+
+button.button1,
+button.button3 {
+  background-color: #406882;
+  font-family: "Chakra Petch", sans-serif;
+  border: 3px solid #406882;
+  font-size: 1.2rem;
+  margin: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+button.button1 {
+  margin-left: 10px;
+}
+
+button.button1,
+button.button2 {
+  width: 120px;
+}
+
+button.button3 {
+  width: 200px;
+}
+
+button.button2 {
+  background-color: white;
+  font-family: "Chakra Petch", sans-serif;
+  border: 3px solid #406882;
+  font-size: 1.2rem;
+  margin: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+button.button1:hover,
+button.button3:hover {
+  background-color: white;
+}
+button.button2:hover {
+  background-color: #406882;
+}
+
+.button1 a:hover,
+.button3 a:hover {
+  color: #406882;
+}
+
+.button2 a:hover {
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1024px) {
+  .container2 {
+    margin-right: 50%;
+  }
+
+  button.button1,
+  button.button2,
+  button.button3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  button.button1,
+  button.button2,
+  button.button3 {
+    width: 200px;
+    font-size: 1.2rem;
+    padding: 5px 0;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+    padding: 0px 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .container2 {
+    margin-right: 28%;
+  }
+  .head3 {
+    font-size: 1.2rem;
+  }
+  .footcontent a {
+    font-size: 1rem;
+  }
+
+  button.button1,
+  button.button2,
+  button.button3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  button.button1,
+  button.button2,
+  button.button3 {
+    width: 150px;
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+
+  .copyright {
+    font-size: 1rem;
+    padding: 0px 3rem;
+  }
+}
