@@ -1,9 +1,5 @@
 import styles from "./homevision.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
-import "../../node_modules/@fortawesome/fontawesome-svg-core/styles.css";
+
 export default function vision() {
   return (
     <div className={styles.body}>
@@ -65,37 +61,6 @@ export default function vision() {
           <a href="#">Link 3</a>
           <a href="#">Link 4</a>
           <a href="#">Link 5</a>
-        </div>
-      </div>
-      <div className={styles.footer}>
-        <div className={styles.container2}>
-          <div className={styles.head3}> Technical Affairs</div>
-          <div className={styles.footcontent}>
-            <Link href="/developers">
-              <ul>
-                <li>
-                  <a> Developers Team</a>
-                </li>
-              </ul>
-            </Link>
-          </div>
-        </div>
-        <div className={styles.socials}>
-          <div className={styles.instagram}>
-            <a href="https://www.instagram.com/iiitdm.technical/">
-              <FontAwesomeIcon icon={faInstagram} size="lg" />
-            </a>
-          </div>
-          <div className={styles.linkedIn}>
-            <a href="https://www.linkedin.com/company/technical-affairs-iiitdm/mycompany/">
-              <FontAwesomeIcon icon={faLinkedin} size="lg" />
-            </a>
-          </div>
-          <div className={styles.mail}>
-            <a href="mailto:technical.affairs@iiitdm.ac.in">
-              <FontAwesomeIcon icon={faEnvelope} size="lg" />
-            </a>
-          </div>
         </div>
       </div>
     </div>
