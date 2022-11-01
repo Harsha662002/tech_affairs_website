@@ -4,6 +4,7 @@ import ClubInfo from "../components/clubs/clubinfo";
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import { clubdata } from "../components/clubs/clubdata";
+import Footer from "../components/footer";
 const Clubs = () => {
   let length = 10;
   let data = [];
@@ -59,6 +60,7 @@ const Clubs = () => {
       <Navbar />
       <Heading name="OUR CLUBS" />
       {elements}
+      <Footer />
     </div>
   );
 };
