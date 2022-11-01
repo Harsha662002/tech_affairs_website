@@ -4,6 +4,7 @@ import AboutTeam from "../components/about/aboutteam";
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import Hexagon from "../components/about/honeycomb";
+import Footer from "../components/footer";
 const about = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const about = () => {
       <AboutIntro></AboutIntro>
       <AboutTeam></AboutTeam>
       <Hexagon />
+      <Footer />
     </div>
   );
 };
