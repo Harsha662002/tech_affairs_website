@@ -1,6 +1,7 @@
 .footer {
   border-top: 3px solid black;
   display: flex;
+  background-color: #f5f5f5;
   /* padding-top: 3%; */
 }
 .container2 {
