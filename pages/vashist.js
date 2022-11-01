@@ -3,6 +3,7 @@ import Heading from "../components/heading/heading";
 import Navbar from "../components/navbar";
 import Vashist from "../components/vashist/vashist";
 import Head from "next/head";
+import Footer from "../components/footer";
 const vashist = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const vashist = () => {
       <Navbar></Navbar>
       <Heading name="VASHISHT" />
       <Vashist folder="vashist" />
+      <Footer />
     </div>
   );
 };
