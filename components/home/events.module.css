@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Oxanium";
+  width: 576px;
+  height: 147px;
+}
+.events {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 1200px;
+  height: 344px;
+  margin: auto;
+}
+/* img
+{
+    height: 147px;
+    width: 100px;
+    border-radius: 110px 110px 110px 110px;
+}
+h1
+{
+    font-family: 'Oxanium';
+}
+h5
+{
+    font-size: 32px;
+    margin: 0px;
+} */
+.image {
+  margin: 1px;
+}
+.text {
+  align-items: center;
+  margin-left: 20px;
+}
+.date_time {
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+  margin-top: 5px;
+}
+.details {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 100;
+  color: #949494;
+}
+/* p {
+  margin: 0px;
+} */
+.scrl {
+  color: #0049b7;
+  font-size: 20px;
+}
