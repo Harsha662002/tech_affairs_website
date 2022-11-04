@@ -52,10 +52,7 @@ const ticks = () => {
               <div className={styles.sub_flex_item_right_bottom}>
                 To conduct the technical festival VASHISHT for students annually
                 at the institute level in collaboration with academic
-                departments and clubs. The technical festival is intended to
-                focus on physical and computer models, posters on scientific and
-                technical topics, and presentations based on creative work and
-                organize various competitions to promote talents.
+                departments and clubs.
               </div>
             </div>
           </div>

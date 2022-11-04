@@ -9,7 +9,7 @@
   flex-direction: column;
   /* width: 50%; */
   margin-left: 0.5rem;
-  margin-right: 50%;
+  margin-right: 70%;
 }
 
 .head3 {
@@ -29,6 +29,7 @@
   color: #000;
   font-size: 1.2rem;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .socials {

@@ -140,6 +140,14 @@ export const Pocdetails = [
     image: "test.jpg",
     rollnumber: "	ME21B1055",
   },
+  {
+    name: "Mrudula",
+    phone: "7320852074",
+    email: "me21b1055@iiitdm.ac.in",
+    position: "Public Outreach Committee",
+    image: "mrudula.png",
+    rollnumber: "	ME21B1055",
+  },
 ];
 export const Rmcdetails = [
   {
@@ -231,7 +239,7 @@ export const Pmcdetails = [
     phone: 9629086758,
     email: "me21b1048@iiitdm.ac.in",
     position: "Project Management Committee",
-    image: "test.jpg",
+    image: "vishal.png",
   },
   {
     name: "Sibi M",

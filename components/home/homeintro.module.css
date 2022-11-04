@@ -7,6 +7,7 @@
   padding-left: 4%;
   padding-right: 6%;
   margin-top: 5%;
+  flex-direction: row;
 }
 
 .textContent {
@@ -34,10 +35,10 @@
 }
 .text3 {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   padding-left: 2%;
   color: #393e46;
-  padding-right: 15%;
+  padding-right: 30%;
 }
 .line {
   padding-left: 2%;
@@ -94,9 +95,9 @@ button.button2 {
   margin-right: 2rem;
   font-weight: bold;
 }
-.picture {
-  height: 50vh;
-  width: 50vw;
+.picture img {
+  height: 500px;
+  width: 520px;
   border-radius: 4%;
 }
 
@@ -115,10 +116,24 @@ button.button2:hover {
   color: white;
 }
 
+.text4 {
+  font-weight: 500;
+}
+
+.flex_left {
+  flex: 30%;
+  padding-right: 10px;
+}
+
 @media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
   .text1 {
-    width: 36%;
-    font-size: 1rem;
+    width: 60%;
+    font-size: 1.75rem;
+    padding: 1.5% 0.5rem;
   }
 
   .text2 {
@@ -126,16 +141,26 @@ button.button2:hover {
   }
 
   .text3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .text4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
-  .picture {
-    height: 60vh;
-    width: 60vw;
+  button.button1 {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  button.button2 {
+    font-size: 1.5rem;
+  }
+
+  .picture img {
+    margin-top: 2rem;
+    height: 400px;
+    width: 600px;
   }
 }
 
@@ -166,11 +191,14 @@ button.button2:hover {
 } */
 
 @media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
   .text1 {
-    width: 40%;
-    font-size: 0.5rem;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    width: 70%;
+    font-size: 1rem;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
   }
 
   .text2 {
@@ -179,24 +207,25 @@ button.button2:hover {
   }
 
   .text3 {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 
   .text4 {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 
-  .picture {
-    height: 45vh;
-    width: 80vw;
+  .picture img {
+    margin-top: 2rem;
+    height: 200px;
+    width: 300px;
   }
 
   button.button1 {
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-right: 0.5rem;
   }
 
   button.button2 {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
