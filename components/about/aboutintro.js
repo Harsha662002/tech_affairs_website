@@ -13,7 +13,7 @@ export default function Home() {
     display.textContent = visionText.toString();
   }
   function missionContent() {
-    return "The Technical Affairs of IIITDM Kancheepuram actively promotes and manages all technical projects, events, and activities that take place in the Institute.The council is made up of coordinators, faculty, and student members, all of whom are enthusiastically working to advance the institute's technological capabilities.";
+    return "Our mission is to create a healthy community where people interact, explore, and increase their knowledge with added fun.";
   }
   function visionContent() {
     return "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate esse, exercitationem praesentium vitae magni necessitatibus nemo eos aliquid sequi.";
@@ -34,11 +34,8 @@ export default function Home() {
       <div className={styles.vl}> </div>
       <div id="content" className={styles.content}>
         <p>
-          The Technical Affairs of IIITDM Kancheepuram actively promotes and
-          manages all technical projects, events, and activities that take place
-          in the Institute. The council is made up of coordinators, faculty, and
-          student members, all of whom are enthusiastically working to advance
-          the institutes technological capabilities.
+          Our mission is to create a healthy community where people interact,
+          explore, and increase their knowledge with added fun.
         </p>
       </div>
     </div>

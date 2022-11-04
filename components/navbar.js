@@ -41,10 +41,10 @@ const DesktopNavbar = () => {
         <Link href="/gallery">
           <a>Gallery</a>
         </Link>
-        <Link href="/">
+        <Link href="#Events">
           <a>Events</a>
         </Link>
-        <Link href="/vashist">
+        <Link href="/vashisht">
           <a>Vashisht</a>
         </Link>
         <Link
@@ -95,12 +95,12 @@ const MobileNavbar = () => {
           </Link>
         </div>
         <div className={!close && navbarcss.hide}>
-          <Link href="/" className={!close && navbarcss.hide}>
+          <Link href="#Events" className={!close && navbarcss.hide}>
             <a>Events</a>
           </Link>
         </div>
         <div className={!close && navbarcss.hide}>
-          <Link href="/vashist" className={!close && navbarcss.hide}>
+          <Link href="/vashisht" className={!close && navbarcss.hide}>
             <a>Vashisht</a>
           </Link>
         </div>

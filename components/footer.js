@@ -23,11 +23,6 @@ const Footer = () => {
                 Disclaimer
               </a>
             </button>
-            <button className={styles.button3}>
-              <a href="https://docs.google.com/document/d/e/2PACX-1vTBfE7eqSa_k6AmRPQY6UyZ8PA18S-9bdpURkBfcBwc2prwVDpx06P0vWPY9PlC_rFrMoWGZ9aPomu2/pub">
-                Annual Report
-              </a>
-            </button>
           </div>
           <div className={styles.footcontent}>
             <Link href="/developers">

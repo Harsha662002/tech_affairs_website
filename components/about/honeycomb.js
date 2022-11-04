@@ -18,11 +18,10 @@ function hexagon() {
     <>
       <div className={style.container}>
         <div className={style.pics}>
-          <h1>PicS</h1>
+          {/* <h1>PicS</h1> */}
           <Pics details={Picsdetails} />
         </div>
         <div className={style.pics}>
-          <h1>Teams</h1>
           <Teams details={Teamsdetails} />
         </div>
         <div className={style.pics}>

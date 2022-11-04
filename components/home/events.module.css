@@ -1,25 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap");
+
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  font-family: "Oxanium";
+  font-family: "Chakra Petch", sans-serif;
   width: 576px;
   height: 147px;
 }
-.events {
+/* .events {
   display: grid;
   grid-template-columns: auto auto;
   width: 1200px;
   height: 344px;
   margin: auto;
-}
+} */
 /* img
-{
-    height: 147px;
-    width: 100px;
-    border-radius: 110px 110px 110px 110px;
-}
+
 h1
 {
     font-family: 'Oxanium';
@@ -52,6 +50,200 @@ h5
   margin: 0px;
 } */
 .scrl {
-  color: #0049b7;
+  color: red;
   font-size: 20px;
+}
+
+.event_heading {
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.events_flexbox,
+.events_flexbox2 {
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 12rem;
+}
+
+.events_flexbox_item {
+  flex: 50%;
+  padding: 0px 10px;
+}
+
+.details {
+  padding-right: 20px;
+}
+
+.current_events {
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+  font-weight: 500;
+  font-family: "Chakra Petch", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: -5rem;
+}
+
+button.past_events {
+  background-color: #406882;
+  font-family: "Chakra Petch", sans-serif;
+  border: 3px solid #406882;
+  font-size: 1.2rem;
+  margin: 0%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-right: 2rem;
+  font-weight: bold;
+  margin-left: 40rem;
+  margin-top: 6rem;
+}
+
+.past_events a {
+  color: white;
+  text-decoration: none;
+}
+
+button.past_events:hover {
+  background-color: white;
+}
+
+.past_events a:hover {
+  color: #406882;
+}
+.image {
+  /* height: 80px;
+  width: 80px; */
+  margin-top: 0rem;
+}
+
+@media (max-width: 1024px) {
+  .current_events {
+    margin-bottom: -6rem;
+  }
+
+  .events_flexbox,
+  .events_flexbox2 {
+    padding: 1rem;
+  }
+
+  .container {
+    margin-left: 5rem;
+    width: 400px;
+    height: 147px;
+  }
+
+  .image {
+    margin: 1px;
+  }
+  .text {
+    align-items: center;
+    margin-left: 1rem;
+  }
+  .date_time {
+    font-weight: bold;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 5px;
+  }
+  .details {
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #949494;
+  }
+  button.past_events {
+    margin-left: 25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    width: 300px;
+  }
+
+  .events_flexbox,
+  .events_flexbox2 {
+    padding: 1rem;
+  }
+
+  /* .container {
+    margin-left: 5rem;
+    width: 400px;
+    height: 147px;
+  } */
+
+  .text {
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+  .text h5 {
+    margin-left: 5rem;
+  }
+
+  .date_time {
+    font-weight: bold;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 5px;
+  }
+  .details {
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #949494;
+  }
+  button.past_events {
+    margin-left: 20rem;
+  }
+
+  .current_events {
+    margin-bottom: -2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .events_flexbox,
+  .events_flexbox2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 350px;
+    margin-left: 1.75rem;
+  }
+
+  .events_flexbox_item {
+    margin-top: 2rem;
+    margin-left: -1rem;
+  }
+
+  .events_flexbox_temp {
+    margin-top: 8rem;
+  }
+
+  .text h5 {
+    padding-left: 1.5rem;
+  }
+
+  .text i {
+    padding-left: 7rem;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  button.past_events {
+    margin-left: 9rem;
+  }
 }

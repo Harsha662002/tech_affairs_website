@@ -19,12 +19,10 @@ export class Events extends Component {
     };
   }
   async Updatealert() {
-    const url = ``;
+    const url = `https://techaffairs-backend.herokuapp.com/alerts`;
     this.setState({ loading: true });
     let data = await fetch(url);
-    console.log(data);
     let parsedData = await data.json();
-    console.log(parsedData);
     this.setState({
       _id: parsedData._id,
       message: parsedData.message,
