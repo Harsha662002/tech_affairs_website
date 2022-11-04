@@ -145,7 +145,7 @@ export const Pocdetails = [
     phone: "7320852074",
     email: "me21b1055@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "mrudula.png",
+    image: "Mrudula.png",
     rollnumber: "	ME21B1055",
   },
 ];
