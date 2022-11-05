@@ -63,13 +63,13 @@ export default function vision() {
             <a>Sponsor Technical Clubs</a>
           </Link>
           <Link href="/upcoming">
-            <a href="/upcoming">Sponsor Competitions</a>
+            <a>Sponsor Competitions</a>
           </Link>
           <Link href="/upcoming">
-            <a href="/upcoming">Sponsor Technical Event</a>
+            <a>Sponsor Technical Event</a>
           </Link>
           <Link href="/upcoming">
-            <a href="/upcoming">Past Sponsorships</a>
+            <a>Past Sponsorships</a>
           </Link>
           {/* <a href="#">Link 5</a> */}
         </div>
