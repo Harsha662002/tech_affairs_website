@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap");
+
+.coming_soon {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.coming_soon_inner {
+  position: relative;
+}
+.heading {
+  font-size: 100px;
+  text-transform: uppercase;
+  padding: 20px;
+  background: #1a374d;
+  transform: skewY(-10deg);
+  font-weight: 500;
+  line-height: 100px;
+  font-family: "Chakra Petch", sans-serif;
+  color: #fff;
+}
+.small_heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: "Chakra Petch", sans-serif;
+  padding: 20px;
+  background: #fff;
+  color: #000;
+  transform: skewY(-10deg);
+  font-weight: 500;
+  line-height: 30px;
+  box-shadow: 10px 10px 20px rgb(0 0 0 / 0.3);
+  position: absolute;
+  right: 0;
+  bottom: -44px;
+}
+
+.coming_soon_inner:after {
+  content: "";
+  height: 2px;
+  width: 60%;
+  background: #1a374d;
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+  transform: skewY(-10deg);
+}
+.heading:before {
+  content: "";
+  height: 2px;
+  width: 60%;
+  background: #000;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+.heading:after {
+  content: "";
+  height: 2px;
+  width: 60%;
+  background: #1a374d;
+  position: absolute;
+  bottom: -120px;
+  left: 0;
+}
+@media only screen and (max-width: 400px) and (min-width: 200px) {
+  .heading {
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+  }
+  .small_heading {
+    font-size: 20px;
+    padding: 10px;
+    bottom: -49px;
+  }
+  .coming_soon_inner:before {
+    top: -20px;
+  }
+  .heading:before {
+    top: -20px;
+  }
+  .heading:after {
+    bottom: -100px;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 401px) {
+  .heading {
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+  }
+  .small_heading {
+    font-size: 25px;
+    padding: 10px;
+    bottom: -48px;
+  }
+  .coming_soon_inner:before {
+    top: -30px;
+  }
+  .heading:before {
+    top: -30px;
+  }
+  .heading:after {
+    bottom: -100px;
+  }
+}

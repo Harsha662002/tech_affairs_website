@@ -103,7 +103,7 @@ export const Pocdetails = [
     phone: "8792385815",
     email: "ec21b1090@iiitdm.ac.in",
     position: "Public Outreach Committee - Co Lead",
-    image: "test.jpg",
+    image: "karthikeyan.png",
     rollnumber: "EC21B1090",
   },
   {
@@ -119,7 +119,7 @@ export const Pocdetails = [
     phone: "9791022154",
     email: "ec21b1075@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "test.jpg",
+    image: "sakti.png",
     rollnumber: "EC21B1075",
   },
 
@@ -146,6 +146,14 @@ export const Pocdetails = [
     email: "me21b1055@iiitdm.ac.in",
     position: "Public Outreach Committee",
     image: "mrudula.png",
+    rollnumber: "	ME21B1055",
+  },
+  {
+    name: "Videsh",
+    phone: "7320852074",
+    email: "me21b1055@iiitdm.ac.in",
+    position: "Public Outreach Committee",
+    image: "videsh.png",
     rollnumber: "	ME21B1055",
   },
 ];
@@ -175,7 +183,7 @@ export const Rmcdetails = [
     phone: 8853061366,
     email: "ec21b1006@iiitdm.ac.in",
     position: "Resource Management Committee",
-    image: "test.jpg",
+    image: "manas.png",
   },
   {
     name: "Ananya Lakshmi Ravi",
@@ -212,7 +220,7 @@ export const Pmcdetails = [
     phone: 9100292839,
     email: "ec20b1118@iiitdm.ac.in",
     position: "Project Management Committee - Co Lead",
-    image: "test.jpg",
+    image: "varshitha.png",
   },
   {
     name: "Harsha Vasireddy",

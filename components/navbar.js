@@ -41,18 +41,14 @@ const DesktopNavbar = () => {
         <Link href="/gallery">
           <a>Gallery</a>
         </Link>
-        <Link href="#Events">
+        <Link href="\#Events">
           <a>Events</a>
         </Link>
         <Link href="/vashisht">
           <a>Vashisht</a>
         </Link>
-        <Link
-          href="http://iiitdm.ac.in/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          IIITDM Page
+        <Link href="/upcoming" target="_blank" rel="noopener noreferrer">
+          Joy Of Giving
         </Link>
       </div>
     </div>
@@ -95,7 +91,7 @@ const MobileNavbar = () => {
           </Link>
         </div>
         <div className={!close && navbarcss.hide}>
-          <Link href="#Events" className={!close && navbarcss.hide}>
+          <Link href="\#Events" className={!close && navbarcss.hide}>
             <a>Events</a>
           </Link>
         </div>
@@ -106,12 +102,12 @@ const MobileNavbar = () => {
         </div>
         <div className={!close && navbarcss.hide}>
           <Link
-            href="http://iiitdm.ac.in/"
+            href="/upcoming"
             target="_blank"
             rel="noopener noreferrer"
             className={!close && navbarcss.hide}
           >
-            <a>IIITDM Page</a>
+            <a>Joy of Giving</a>
           </Link>
         </div>
       </div>

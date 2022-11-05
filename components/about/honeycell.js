@@ -6,9 +6,6 @@ const Hexagon = (props) => {
   const [check, setcheck] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   // let logo = require(props.details.path);
-  function changeBackground(e) {
-    e.target.style.filter = "contrast(200%)";
-  }
   function changeLeave(e) {
     // setcheck(false);
     e.target.style.filter = "contrast(100%)";
@@ -28,7 +25,7 @@ const Hexagon = (props) => {
           <img
             className={Style.imageclip}
             onClick={() => setModalOpen(!modalOpen)}
-            onMouseEnter={changeBackground}
+            // onMouseEnter={changeBackground}
             onMouseLeave={changeLeave}
             data-toggle="modal"
             data-target="#exampleModalCenter"

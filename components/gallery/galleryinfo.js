@@ -12,7 +12,7 @@ const GalleryInfo = (props) => {
     return (
       <Image
         key={index}
-        src={`/assests/images/${props.folder}/${item + 1}.jpg`}
+        src={`/assests/images/${props.folder}/${item + 1}.png`}
         width="1200px"
         height="1200px"
       />
