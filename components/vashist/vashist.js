@@ -7,6 +7,14 @@ import ImageComponent from "../imagecomponent";
 const Vashist = (props) => {
   let length = 6;
   let data = [];
+  let info = [
+    "Technical Clubs",
+    "Hackathon",
+    "Competitions",
+    "EDM Night",
+    "Lecture Talks",
+    "Club Events",
+  ];
   for (let i = 0; i < length; i++) {
     data.push(i);
   }
@@ -16,7 +24,7 @@ const Vashist = (props) => {
         key={index}
         folder={props.folder}
         item={item + 1}
-        dataA={data}
+        dataA={info}
       />
     );
   });

@@ -156,6 +156,7 @@ export const clubdata = [
     linkedin: "",
     instagram: "",
     discord: "",
+    cimage1: "/assests/images/clubImages/gdsc_1.png",
   },
   {
     no: "six",

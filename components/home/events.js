@@ -11,7 +11,7 @@ export class Events extends Component {
     super();
     this.state = {
       _id: "123",
-      message: "manjunath",
+      message: "Loading...",
       description: "frhgdfhg",
       hyperlink: "sdhgfjhds",
       __v: 0,

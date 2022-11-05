@@ -125,6 +125,34 @@
   text-transform: uppercase;
 }
 
+.pics h2,
+.pics h5 {
+  position: absolute;
+  z-index: 3;
+  padding-left: 37rem;
+  padding-top: 5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.pics h3 {
+  position: absolute;
+  z-index: 3;
+  padding-left: 48.5rem;
+  padding-top: 5.1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.pics h4 {
+  position: absolute;
+  z-index: 3;
+  padding-left: 52.5rem;
+  padding-top: 5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .imageclip {
   top: -50%;
   left: 0;
@@ -204,7 +232,24 @@
   font-weight: 600;
 }
 
-@media (min-width: 1024px) {
+.pmc_margin {
+  margin-top: 10rem;
+}
+
+@media (max-width: 1024px) {
+  .pics h2,
+  .pics h5 {
+    padding-left: 22rem;
+  }
+
+  .pics h3 {
+    padding-left: 33rem;
+  }
+
+  .pics h4 {
+    padding-left: 37rem;
+  }
+
   .honeycombcell:nth-child(7n + 5) {
     margin-left: calc(50% - 400px);
   }
@@ -242,6 +287,19 @@
     margin-left: calc(50% - 125px);
   } */
 
+  .pics h2,
+  .pics h5 {
+    padding-left: 14rem;
+  }
+
+  .pics h3 {
+    padding-left: 25rem;
+  }
+
+  .pics h4 {
+    padding-left: 29rem;
+  }
+
   .honeycomb__placeholder:nth-child(3n + 5) {
     display: block;
   }
@@ -253,6 +311,25 @@
 }
 
 @media (max-width: 500px) {
+  .pics h2 {
+    padding-left: 10rem;
+    margin-top: -370px;
+  }
+
+  .pics h3 {
+    padding-left: 7rem;
+    margin-top: -70px;
+  }
+
+  .pics h4 {
+    padding-left: 11.8rem;
+    margin-top: -70px;
+  }
+  .pics h5 {
+    padding-left: 9.75rem;
+    margin-top: -370px;
+  }
+
   .honeycombcell {
     margin: 81.25px 25px;
   }

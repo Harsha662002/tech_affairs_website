@@ -77,4 +77,10 @@ export const design = [
     image: "10.jpg",
     key: 15,
   },
+  {
+    name: "Harsha Vasireddy",
+    rollno: "CS20B1033",
+    image: "1.jpg",
+    key: 16,
+  },
 ];

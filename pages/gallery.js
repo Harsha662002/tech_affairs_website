@@ -19,8 +19,8 @@ const gallery = () => {
       <div className={styles.body}>
         <GalleryHeading />
         <GalleryInfo subheading="Tech Expo" folder="recent" />
-        <GalleryInfo subheading="Other Activities" folder="others" />
-        <GalleryInfo subheading="Club Events" folder="ClubEvents" />
+        {/* <GalleryInfo subheading="Other Activities" folder="others" /> */}
+        {/* <GalleryInfo subheading="Club Events" folder="ClubEvents" /> */}
       </div>
       <Footer />
     </div>

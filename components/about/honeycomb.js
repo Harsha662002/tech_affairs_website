@@ -20,11 +20,15 @@ function hexagon() {
         <div className={style.pics}>
           {/* <h1>PicS</h1> */}
           <Pics details={Picsdetails} />
+          <h2>Dean SA</h2>
+          <h4>PIC</h4>
         </div>
         <div className={style.pics}>
           <Teams details={Teamsdetails} />
+          <h5>Secretary</h5>
+          <h3>Joint Secretary</h3>
         </div>
-        <div className={style.pics}>
+        <div className={style.pics + " " + style.pmc_margin}>
           <h1>Product Management Committee</h1>
           <PMC details={Pmcdetails} />
         </div>

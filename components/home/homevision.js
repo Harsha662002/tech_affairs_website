@@ -21,12 +21,6 @@ export default function vision() {
             width={60}
             className={styles.circle}
           />
-          <img
-            href="/assests/images/sponsors/gavstech.png"
-            height={60}
-            width={60}
-            className={styles.circle}
-          />
         </div>
         <div className={styles.content}>
           Our sponsors have assisted technical clubs and societies in organising

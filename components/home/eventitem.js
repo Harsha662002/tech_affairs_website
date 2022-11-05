@@ -18,6 +18,7 @@ export class eventitem extends Component {
       description: " ",
       club: "",
       date: "",
+      time: "",
       __v: 0,
       loading: false,
     };
@@ -27,12 +28,15 @@ export class eventitem extends Component {
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
+    let dateeve = parsedData[a].date.slice(0, 10);
+    let timeeve = parsedData[a].date.slice(11, 16);
     this.setState({
       _id: parsedData[a]._id,
       title: parsedData[a].title,
       description: parsedData[a].description,
       club: parsedData[a].club,
-      date: parsedData[a].date,
+      date: dateeve,
+      time: timeeve,
       __v: parsedData[a].__v,
       loading: false,
     });
@@ -42,24 +46,6 @@ export class eventitem extends Component {
   }
 
   render() {
-    // const hrsmin = (timee) => {
-    //   var date = new Date();
-    //   date.setTime(timee);
-
-    //   var seconds = date.getSeconds();
-    //   var minutes = date.getMinutes();
-    //   var hour = date.getHours();
-
-    //   var year = date.getFullYear();
-    //   var month = date.getMonth(); // beware: January = 0; February = 1, etc.
-    //   var day = date.getDate();
-
-    //   var dayOfWeek = date.getDay(); // Sunday = 0, Monday = 1, etc.
-    //   var milliSeconds = date.getMilliseconds();
-    //   console.log(seconds);
-    //   console.log(minutes);
-    //   console.log(hour);
-    // };
     return (
       <div className={style.container}>
         <div className={style.image}>
@@ -70,12 +56,11 @@ export class eventitem extends Component {
           <p className={style.date_time}>
             <i className="bi bi-building">&nbsp;{this.state.club}</i>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="bi bi-calendar">&nbsp;{this.state.date}</i>
+            <i class="bi bi-calendar">
+              &nbsp;{this.state.date} {this.state.time}
+            </i>
           </p>
           <p className={style.details}>{this.state.description}</p>
-          {/* <p className={style.details}>
-            ufrivbsuiwrbguirbvfvsfboivfbdf higrbousfvbuofwrigofbvios
-          </p> */}
         </div>
       </div>
     );

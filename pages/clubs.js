@@ -54,11 +54,11 @@ const Clubs = () => {
   return (
     <div>
       <Head>
-        <title>OUR CLUBS</title>
+        <title>TECH CLUBS and SOCIETIES</title>
         <link rel="shortcut icon" href="/assests/images/techaffairslogo.ico" />
       </Head>
       <Navbar />
-      <Heading name="OUR CLUBS" />
+      <Heading name="TECH CLUBS and SOCIETIES" />
       {elements}
       <Footer />
     </div>
