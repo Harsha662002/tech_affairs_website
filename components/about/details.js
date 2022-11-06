@@ -201,7 +201,7 @@ export const Rmcdetails = [
     phone: 6205746793,
     email: "me21b1059@iiitdm.ac.in",
     position: "Resource Management Committee",
-    image: "test.jpg",
+    image: "sundar.png",
   },
 ];
 export const Pmcdetails = [
