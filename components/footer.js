@@ -19,9 +19,9 @@ const Footer = () => {
               </a>
             </button>
             <button className={styles.button2}>
-              <a href="https://sites.google.com/iiitdm.ac.in/technicalaffairs/disclaimer">
-                Disclaimer
-              </a>
+              <Link href="/disclaimer">
+                <a>Disclaimer</a>
+              </Link>
             </button>
           </div>
           <div className={styles.footcontent}>

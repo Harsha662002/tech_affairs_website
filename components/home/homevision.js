@@ -15,12 +15,7 @@ export default function vision() {
           <img src="/assests/images/sponsors/indian_bank.png" />
           <img src="/assests/images/sponsors/tkw.png" />
           <img src="/assests/images/sponsors/tlc.png" />
-          <img
-            href="/assests/images/sponsors/gavstech.png"
-            height={60}
-            width={60}
-            className={styles.circle}
-          />
+          <img src="/assests/images/sponsors/gcpa.png" />
         </div>
         <div className={styles.content}>
           Our sponsors have assisted technical clubs and societies in organising

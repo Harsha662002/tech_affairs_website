@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap");
+
+.heading {
+  font-family: "Chakra Petch", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: #1a374d;
+  display: block;
+  width: 300px;
+  margin-left: 620px;
+  margin-top: 2rem;
+}
+
+.content {
+  margin: 4rem 10rem;
+}
+
+.link {
+  margin: 0 10rem 4rem;
+}
+
+.content h3,
+.link h3 {
+  font-size: 2rem;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  color: #406882;
+  margin-bottom: 1rem;
+}
+
+.content p,
+.link p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .heading {
+    margin-left: 380px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    margin-left: 230px;
+  }
+
+  .content {
+    margin: 4rem 7rem;
+  }
+
+  .link {
+    margin: 0 7rem 4rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .heading {
+    margin-left: 100px;
+    font-size: 2rem;
+    width: 200px;
+  }
+  .content {
+    margin: 4rem 1rem;
+  }
+  .content p,
+  .link p {
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .content h3,
+  .link h3 {
+    text-align: left;
+  }
+
+  .link {
+    margin: 0 1rem 4rem;
+  }
+}
