@@ -12,7 +12,7 @@ const eventlist = () => {
             club="SAE CLUB"
             date="10/11/2022"
             time="18:00"
-            desc="Matlab and Simulink Workshop"
+            desc="Online Session: Matlab and Simulink Workshop"
             title="Mathworks Workshop"
           />
         </div>
@@ -27,7 +27,7 @@ const eventlist = () => {
             club="SAE CLUB"
             date="13/11/2022"
             time="12:00"
-            desc="Design and Manufacturing of ATV's"
+            desc="Online Session: Design and Manufacturing of ATV's"
             title="SAE Technical Workshop"
           />
         </div>
