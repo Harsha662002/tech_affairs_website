@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../public/assests/images/techaffairslogo.png";
+import logo from "../../public/assests/images/techaffairslogo.webp";
 import style from "./events.module.css";
 // import FontAwesomeIcon from 'react-fontawesome';
 

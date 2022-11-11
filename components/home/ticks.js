@@ -12,7 +12,7 @@ const ticks = () => {
         <div className={styles.flex_item_left}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>EXHIBITIONS</div>
@@ -27,7 +27,7 @@ const ticks = () => {
         <div className={styles.flex_item_middle}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>
@@ -45,7 +45,7 @@ const ticks = () => {
         <div className={styles.flex_item_right}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>VASHISHT</div>
@@ -62,7 +62,7 @@ const ticks = () => {
         <div className={styles.flex_item_left}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>
@@ -78,7 +78,7 @@ const ticks = () => {
         <div className={styles.flex_item_middle}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>
@@ -93,7 +93,7 @@ const ticks = () => {
         <div className={styles.flex_item_right}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>LECTURES</div>
@@ -109,7 +109,7 @@ const ticks = () => {
         <div className={styles.flex_item_left}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>SEMINARS</div>
@@ -123,7 +123,7 @@ const ticks = () => {
         <div className={styles.flex_item_middle}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>
@@ -139,7 +139,7 @@ const ticks = () => {
         <div className={styles.flex_item_right}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>
@@ -157,7 +157,7 @@ const ticks = () => {
         <div className={styles.flex_item_left}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>
@@ -173,7 +173,7 @@ const ticks = () => {
         <div className={styles.flex_item_middle}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>INDUCTION</div>
@@ -187,7 +187,7 @@ const ticks = () => {
         <div className={styles.flex_item_right}>
           <div className={styles.sub_flex_container}>
             <div className={styles.sub_flex_item_left}>
-              <img src={`/assests/images/check.png`} />
+              <img src={`/assests/images/check.webp`} />
             </div>
             <div className={styles.sub_flex_item_right}>
               <div className={styles.sub_flex_item_right_top}>

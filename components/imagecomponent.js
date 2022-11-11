@@ -8,7 +8,7 @@ const ImageComponent = (props) => {
       <div class={styles.box}>
         <div class={styles.bo}>
           <Image
-            src={`/assests/images/${props.folder}/${props.item}.png`}
+            src={`/assests/images/${props.folder}/${props.item}.webp`}
             width="1500px"
             height="1500px"
           />

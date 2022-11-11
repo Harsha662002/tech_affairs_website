@@ -41,7 +41,7 @@ const HomeIntro = () => {
         </div>
       </div>
       <div className={styles.picture + " " + styles.flex_right}>
-        <img src={`/assests/images/home_image.png`} />
+        <img src={`/assests/images/home_image.webp`} />
       </div>
     </div>
   );
