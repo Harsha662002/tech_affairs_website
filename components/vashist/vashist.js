@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./vashist.module.css";
-import logo from "../../public/assests/images/vashist/logo.jpeg";
+import logo from "../../public/assests/images/vashist/logo.webp";
 import Image from "next/image";
 import ImageComponent from "../imagecomponent";
 

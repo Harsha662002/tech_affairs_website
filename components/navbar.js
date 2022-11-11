@@ -26,7 +26,7 @@ const DesktopNavbar = () => {
     <div className={navbarcss.align}>
       <h2 className={navbarcss.head}>
         <img
-          src="/assests/images/techaffairslogo2.png"
+          src="/assests/images/techaffairslogo2.webp"
           className={navbarcss.logo}
         />
         <p className={navbarcss.title}>Technical Affairs</p>
@@ -65,9 +65,9 @@ const MobileNavbar = () => {
   return (
     <div className={navbarcss.align}>
       <h2 className={navbarcss.head}>
-        {/* <img src="../../public/images/logo.png" alt="" />  */}
+        {/* <img src="../../public/images/logo.webp" alt="" />  */}
         <img
-          src="/assests/images/techaffairslogo2.png"
+          src="/assests/images/techaffairslogo2.webp"
           className={navbarcss.logo}
         />
         <Link href="/">

@@ -6,16 +6,16 @@ export default function vision() {
       <div className={styles.container}>
         <div className={styles.heading}>Our Sponsors</div>
         <div className={styles.bground_two}>
-          <img src="/assests/images/sponsors/gavstech.png" />
-          <img src="/assests/images/sponsors/cad_macro.png" />
-          <img src="/assests/images/sponsors/ashok_leyland.png" />
-          <img src="/assests/images/sponsors/hdfc_bank.png" height="120px" />
+          <img src="/assests/images/sponsors/gavstech.webp" />
+          <img src="/assests/images/sponsors/cad_macro.webp" />
+          <img src="/assests/images/sponsors/ashok_leyland.webp" />
+          <img src="/assests/images/sponsors/hdfc_bank.webp" height="120px" />
         </div>
         <div className={styles.bground_two}>
-          <img src="/assests/images/sponsors/indian_bank.png" />
-          <img src="/assests/images/sponsors/tkw.png" />
-          <img src="/assests/images/sponsors/tlc.png" />
-          <img src="/assests/images/sponsors/gcpa.png" />
+          <img src="/assests/images/sponsors/indian_bank.webp" />
+          <img src="/assests/images/sponsors/tkw.webp" />
+          <img src="/assests/images/sponsors/tlc.webp" />
+          <img src="/assests/images/sponsors/gcpa.webp" />
         </div>
         <div className={styles.content}>
           Our sponsors have assisted technical clubs and societies in organising
@@ -26,12 +26,12 @@ export default function vision() {
       </div>
       <div className={styles.bground}>
         <span className={styles.idc}>
-          <img src="/assests/images/clubLogos/idc.png"></img>
+          <img src="/assests/images/clubLogos/idc.webp"></img>
         </span>
-        <img src="/assests/images/clubLogos/mars.png"></img>
-        <img src="/assests/images/clubLogos/optica.jpg"></img>
-        <img src="/assests/images/clubLogos/roboticsclub.png"></img>
-        <img src="/assests/images/clubLogos/sae.jpg"></img>
+        <img src="/assests/images/clubLogos/mars.webp"></img>
+        <img src="/assests/images/clubLogos/optica.webp"></img>
+        <img src="/assests/images/clubLogos/roboticsclub.webp"></img>
+        <img src="/assests/images/clubLogos/sae.webp"></img>
       </div>
       <div className={styles.links}>
         <div className={styles.Students}>

@@ -4,7 +4,7 @@ export const Facultydetails = [
     phone: "+91-44-27476366",
     email: "sudhir@iiitdm.ac.in",
     position: "Faculty Advisor - EPIC",
-    image: "sudhir.jpg",
+    image: "sudhir.webp",
     rollnumber: " ",
   },
   {
@@ -12,7 +12,7 @@ export const Facultydetails = [
     phone: "+91-44-27476346",
     email: "masila@iiitdm.ac.in ",
     position: "Faculty Advisor - CS Club",
-    image: "Masilamani.jpg",
+    image: "Masilamani.webp",
     rollnumber: " ",
   },
   {
@@ -20,7 +20,7 @@ export const Facultydetails = [
     phone: "+91 44 2747 6337",
     email: "srijith@iiitdm.ac.in",
     position: "Faculty Advisor - OSA",
-    image: "srijith.jpg",
+    image: "srijith.webp",
     rollnumber: " ",
   },
   {
@@ -28,7 +28,7 @@ export const Facultydetails = [
     phone: "+91 44 2747 6121",
     email: "orra@iiitdm.ac.in",
     position: "Co-Faculty Advisor - SAE",
-    image: "kashfull.jpg",
+    image: "kashfull.webp",
     rollnumber: " ",
   },
   {
@@ -36,7 +36,7 @@ export const Facultydetails = [
     phone: " ",
     email: "karthikc@iiitdm.ac.in",
     position: "Faculty Advisor - AUV",
-    image: "karthik.jpg",
+    image: "karthik.webp",
     rollnumber: " ",
   },
   {
@@ -44,7 +44,7 @@ export const Facultydetails = [
     phone: " ",
     email: "rampadhy@iiitdm.ac.in",
     position: "Faculty Advisor - GDSC",
-    image: "rampadhy.jpg",
+    image: "rampadhy.webp",
     rollnumber: " ",
   },
   {
@@ -52,7 +52,7 @@ export const Facultydetails = [
     phone: " ",
     email: "Cyb.Melan@gmail.com",
     position: "Dede",
-    image: "test.jpg",
+    image: "test.webp",
   },
 ];
 export const Picsdetails = [
@@ -61,7 +61,7 @@ export const Picsdetails = [
     phone: " ",
     email: "parvathydas@iiitdm.ac.in ",
     position: "PIC Extracurricular activites and Government Pragma",
-    image: "parvathy.jpg",
+    image: "parvathy.webp",
     rollnumber: " ",
   },
   {
@@ -69,7 +69,7 @@ export const Picsdetails = [
     phone: "+91-44-27476343",
     email: "sivaselvanb@iiitdm.ac.in",
     position: "Dean Student affairs",
-    image: "sivaselvan.jpg",
+    image: "sivaselvan.webp",
     rollnumber: " ",
   },
   {
@@ -77,7 +77,7 @@ export const Picsdetails = [
     phone: "044-27476381",
     email: "bingi@iiitdm.ac.in",
     position: "PIC Designer club",
-    image: "boy.jpg",
+    image: "boy.webp",
     rollnumber: " ",
   },
   {
@@ -85,7 +85,7 @@ export const Picsdetails = [
     phone: "04427476370",
     email: "shubhankar@iiitdm.ac.in",
     position: "PIC SAE & Mars Club",
-    image: "test.jpg",
+    image: "test.webp",
     rollnumber: " ",
   },
   {
@@ -93,7 +93,7 @@ export const Picsdetails = [
     phone: "044-2747- 6377",
     email: "bcbabu@iiitdm.ac.in ",
     position: "PIC IEEE Student Branch",
-    image: "test.jpg",
+    image: "test.webp",
     rollnumber: " ",
   },
 ];
@@ -103,7 +103,7 @@ export const Pocdetails = [
     phone: "8792385815",
     email: "ec21b1090@iiitdm.ac.in",
     position: "Public Outreach Committee - Co Lead",
-    image: "karthikeyan.png",
+    image: "karthikeyan.webp",
     rollnumber: "EC21B1090",
   },
   {
@@ -111,7 +111,7 @@ export const Pocdetails = [
     phone: "9487426964",
     email: "cs21b2044@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "test.jpg",
+    image: "test.webp",
     rollnumber: "CS21B2044",
   },
   {
@@ -119,7 +119,7 @@ export const Pocdetails = [
     phone: "9791022154",
     email: "ec21b1075@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "sakti.png",
+    image: "sakti.webp",
     rollnumber: "EC21B1075",
   },
 
@@ -128,7 +128,7 @@ export const Pocdetails = [
     phone: "9789998350",
     email: "cs21b1088@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "JaiKrishna.jpg",
+    image: "JaiKrishna.webp",
     rollnumber: "CS21B1088",
   },
 
@@ -137,7 +137,7 @@ export const Pocdetails = [
     phone: "7320852074",
     email: "me21b1055@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "test.jpg",
+    image: "rohit.webp",
     rollnumber: "	ME21B1055",
   },
   {
@@ -145,7 +145,7 @@ export const Pocdetails = [
     phone: "7320852074",
     email: "me21b1055@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "mrudula.png",
+    image: "mrudula.webp",
     rollnumber: "	ME21B1055",
   },
   {
@@ -153,7 +153,7 @@ export const Pocdetails = [
     phone: "7320852074",
     email: "me21b1055@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "videsh.png",
+    image: "videsh.webp",
     rollnumber: "	ME21B1055",
   },
 ];
@@ -165,7 +165,7 @@ export const Rmcdetails = [
     phone: 8197714735,
     email: "evd19i007@iiitdm.ac.in",
     position: "Resource Management Committee - Lead",
-    image: "Kishore.jpg",
+    image: "Kishore.webp",
   },
   {
     name: "Jayanthaan Haribaskar",
@@ -174,7 +174,7 @@ export const Rmcdetails = [
     phone: 8056414751,
     email: "mdm19b010@iiitdm.ac.in",
     position: "Resource Management Committee - Co Lead",
-    image: "jayanthan.jpg",
+    image: "jayanthan.webp",
   },
   {
     name: "Manas Narayan",
@@ -183,7 +183,7 @@ export const Rmcdetails = [
     phone: 8853061366,
     email: "ec21b1006@iiitdm.ac.in",
     position: "Resource Management Committee",
-    image: "manas.png",
+    image: "manas.webp",
   },
   {
     name: "Ananya Lakshmi Ravi",
@@ -192,7 +192,7 @@ export const Rmcdetails = [
     phone: 9172194182,
     email: "ec21b1004@iiitdm.ac.in",
     position: "Resource Management Committee",
-    image: "Ananya_Ravi.jpg",
+    image: "Ananya_Ravi.webp",
   },
   {
     name: "Sundar Subramanian S",
@@ -201,7 +201,7 @@ export const Rmcdetails = [
     phone: 6205746793,
     email: "me21b1059@iiitdm.ac.in",
     position: "Resource Management Committee",
-    image: "sundar.png",
+    image: "sundar.webp",
   },
 ];
 export const Pmcdetails = [
@@ -210,7 +210,7 @@ export const Pmcdetails = [
     phone: "7028724111",
     email: "coe19b037@iiitdm.ac.in",
     position: "Project Management Committee - Lead",
-    image: "test.jpg",
+    image: "test.webp",
     rollnumber: "COE19B037",
   },
   {
@@ -220,7 +220,7 @@ export const Pmcdetails = [
     phone: 9100292839,
     email: "ec20b1118@iiitdm.ac.in",
     position: "Project Management Committee - Co Lead",
-    image: "varshitha.png",
+    image: "varshitha.webp",
   },
   {
     name: "Harsha Vasireddy",
@@ -229,7 +229,7 @@ export const Pmcdetails = [
     phone: 9642287347,
     email: "cs20b1033@iiitdm.ac.in",
     position: "Project Management Committee - Co Lead",
-    image: "Harsha.png",
+    image: "Harsha.webp",
   },
   {
     name: "A Vinay Kishore",
@@ -238,7 +238,7 @@ export const Pmcdetails = [
     phone: 8309999640,
     email: "cs20b1032@iiitdm.ac.in",
     position: "Project Management Committee",
-    image: "vinay.jpg",
+    image: "vinay.webp",
   },
   {
     name: "Vishal A S",
@@ -247,7 +247,7 @@ export const Pmcdetails = [
     phone: 9629086758,
     email: "me21b1048@iiitdm.ac.in",
     position: "Project Management Committee",
-    image: "vishal.png",
+    image: "vishal.webp",
   },
   {
     name: "Sibi M",
@@ -256,7 +256,7 @@ export const Pmcdetails = [
     phone: 9360455144,
     email: "ec21b1042@iiitdm.ac.in",
     position: "Project Management Committee",
-    image: "Sibi.jpg",
+    image: "Sibi.webp",
   },
   {
     name: "KEERTHANA SRI S G",
@@ -265,7 +265,7 @@ export const Pmcdetails = [
     phone: 9500168697,
     email: "me21b1046@iiitdm.ac.in",
     position: "Project Management Committee",
-    image: "test.jpg",
+    image: "keerthana.webp",
   },
   {
     name: "KARTHIKEYAN.S",
@@ -274,7 +274,7 @@ export const Pmcdetails = [
     phone: 8792385815,
     email: "ec21b1090@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "test.jpg",
+    image: "test.webp",
   },
   {
     name: "SRINITHI N S",
@@ -283,7 +283,7 @@ export const Pmcdetails = [
     phone: 9487426964,
     email: "cs21b2044@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "test.jpg",
+    image: "test.webp",
   },
 ];
 export const Teamsdetails = [
@@ -294,7 +294,7 @@ export const Teamsdetails = [
     phone: 9894317341,
     email: "mdm19b024@iiitdm.ac.in",
     position: "Technical Affairs Secretary",
-    image: "secretary.jpg",
+    image: "secretary.webp",
   },
   {
     name: "Praneeth Kumar G",
@@ -303,7 +303,7 @@ export const Teamsdetails = [
     phone: 9393107783,
     email: "cs20b1130@iiitdm.ac.in",
     position: "Technical Affairs Joint Secretary",
-    image: "joint_sec.jpg",
+    image: "joint_sec.webp",
   },
 ];
 export const Sponsorshipdetails = [
@@ -314,6 +314,6 @@ export const Sponsorshipdetails = [
     phone: 6205746793,
     email: "me21b1059@iiitdm.ac.in",
     position: "Sponsorship Committee",
-    image: "test.jpg",
+    image: "test.webp",
   },
 ];

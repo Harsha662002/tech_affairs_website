@@ -5,17 +5,17 @@ const eventlist = () => {
   return (
     <div className={style.events}>
       <div className={style.events_flexbox}>
-        <div className={style.events_flexbox_item}>
+        {/* <div className={style.events_flexbox_item}>
           <Event
             event_num={0}
-            image="sae.jpg"
+            image="sae.webp"
             club="SAE CLUB"
             date="10/11/2022"
             time="18:00"
             desc="Online Session: Matlab and Simulink Workshop"
             title="Mathworks Workshop"
           />
-        </div>
+        </div> */}
         <div
           className={
             style.events_flexbox_item + " " + style.events_flexbox_temp
@@ -23,7 +23,7 @@ const eventlist = () => {
         >
           <Event
             event_num={1}
-            image="sae.jpg"
+            image="sae.webp"
             club="SAE CLUB"
             date="13/11/2022"
             time="12:00"
@@ -40,7 +40,7 @@ const eventlist = () => {
         >
           {/* <Event
             event_num={2}
-            image="techaffairslogo.png"
+            image="techaffairslogo.webp"
             club="ZUNO"
             date="9/11/2022"
             time="17:30"
@@ -55,7 +55,7 @@ const eventlist = () => {
         >
           <Event
             event_num={3}
-            image="sae.jpg"
+            image="sae.webp"
             club="SAE CLUB"
             date="13/11/2022"
             time="12:00"
