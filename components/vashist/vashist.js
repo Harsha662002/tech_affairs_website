@@ -38,7 +38,7 @@ const Vashist = (props) => {
         {elements[2]}
         <div class={styles.box}>
           <div class={styles.bo}>
-            <Image src={logo} width="1000px" height="1000px" />
+            <Image src={logo} width="1000px" height="1000px" alt="Logo" />
           </div>
           <button className={styles.Button}>
             <a

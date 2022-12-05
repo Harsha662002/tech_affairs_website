@@ -16,10 +16,11 @@
   flex-wrap: wrap;
   margin: 20px 0;
 }
+
 .box {
   height: 400px;
   width: 350px;
-  margin: 20px 60px;
+  margin: 20px 0px;
 }
 .bo {
   border-radius: 5px;
@@ -84,8 +85,8 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .Button {
-    margin-left: 40px;
+    margin-left: 80px;
   }
 }
