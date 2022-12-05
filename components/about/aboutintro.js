@@ -16,7 +16,7 @@ export default function Home() {
     return "Our mission is to create a healthy community where people interact, explore, and increase their knowledge with added fun.";
   }
   function visionContent() {
-    return "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate esse, exercitationem praesentium vitae magni necessitatibus nemo eos aliquid sequi.";
+    return "He who has a why can endure any how";
   }
 
   return (
@@ -28,15 +28,12 @@ export default function Home() {
         </button>
 
         <button className={styles.vision} onClick={visionDisplay}>
-          VISION
+          MOTTO
         </button>
       </div>
-      <div className={styles.vl}> </div>
+      {/* <div className={styles.vl}> </div> */}
       <div id="content" className={styles.content}>
-        <p>
-          Our mission is to create a healthy community where people interact,
-          explore, and increase their knowledge with added fun.
-        </p>
+        <p>He who has a why can endure any How.</p>
       </div>
     </div>
   );

@@ -15,11 +15,11 @@
 
 .vl {
   border-left: 3px solid rgb(113, 115, 113);
-  height: 8%;
+  height: 12%;
   position: absolute;
   left: 50%;
   margin-left: -1px;
-  top: 46%;
+  top: 75%;
 }
 
 .mission {
@@ -85,6 +85,7 @@ button.mission:hover {
   background-color: rgb(255, 255, 255);
   padding: 0% 5%;
   padding-top: 2%;
+  text-align: center;
 }
 
 .content p {
