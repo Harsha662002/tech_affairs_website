@@ -11,30 +11,30 @@ export class Events extends Component {
     super();
     this.state = {
       _id: "123",
-      message: "Loading...",
+      message: "Welcome to Technical Affairs IIITDM !!!",
       description: "frhgdfhg",
       hyperlink: "sdhgfjhds",
       __v: 0,
       loading: false,
     };
   }
-  async Updatealert() {
-    const url = `https://techaffairs-backend.herokuapp.com/alerts`;
-    this.setState({ loading: true });
-    let data = await fetch(url);
-    let parsedData = await data.json();
-    this.setState({
-      _id: parsedData._id,
-      message: parsedData.message,
-      description: parsedData.description,
-      hyperlink: parsedData.hyperlink,
-      __v: parsedData.__v,
-      loading: false,
-    });
-  }
-  async componentDidMount() {
-    this.Updatealert();
-  }
+  // async Updatealert() {
+  //   const url = `https://techaffairs-backend.herokuapp.com/alerts`;
+  //   this.setState({ loading: true });
+  //   let data = await fetch(url);
+  //   let parsedData = await data.json();
+  //   this.setState({
+  //     _id: parsedData._id,
+  //     message: parsedData.message,
+  //     description: parsedData.description,
+  //     hyperlink: parsedData.hyperlink,
+  //     __v: parsedData.__v,
+  //     loading: false,
+  //   });
+  // }
+  // async componentDidMount() {
+  //   this.Updatealert();
+  // }
   render() {
     return (
       <>

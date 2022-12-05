@@ -111,7 +111,7 @@ export const Pocdetails = [
     phone: "9487426964",
     email: "cs21b2044@iiitdm.ac.in",
     position: "Public Outreach Committee",
-    image: "test.webp",
+    image: "srinithi.webp",
     rollnumber: "CS21B2044",
   },
   {
@@ -210,7 +210,7 @@ export const Pmcdetails = [
     phone: "7028724111",
     email: "coe19b037@iiitdm.ac.in",
     position: "Project Management Committee - Lead",
-    image: "test.webp",
+    image: "subham.webp",
     rollnumber: "COE19B037",
   },
   {
@@ -314,6 +314,6 @@ export const Sponsorshipdetails = [
     phone: 6205746793,
     email: "me21b1059@iiitdm.ac.in",
     position: "Sponsorship Committee",
-    image: "test.webp",
+    image: "ankit.webp",
   },
 ];
