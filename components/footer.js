@@ -25,6 +25,13 @@ const Footer = () => {
             </button>
           </div>
           <div className={styles.footcontent}>
+            <Link href="/links">
+              <ul>
+                <li>
+                  <a>Important Links</a>
+                </li>
+              </ul>
+            </Link>
             <Link href="/developers">
               <ul>
                 <li>
