@@ -46,7 +46,7 @@ const Vashist = (props) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Vashisht 2022
+              Vashisht 2023
             </a>
           </button>
         </div>
