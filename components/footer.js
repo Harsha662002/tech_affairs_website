@@ -25,10 +25,10 @@ const Footer = () => {
             </button>
           </div>
           <div className={styles.footcontent}>
-            <Link href="/links">
+            <Link href="/forms">
               <ul>
                 <li>
-                  <a>Important Links</a>
+                  <a>Important Forms</a>
                 </li>
               </ul>
             </Link>
