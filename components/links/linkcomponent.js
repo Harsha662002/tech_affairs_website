@@ -48,7 +48,7 @@ const Linkcomponent = () => {
   };
   return (
     <div className={styles.container}>
-      <h3>Important Links</h3>
+      <h3>Important Forms</h3>
       <ul>
         {documents.map((document) => (
           <li key={document.id}>
