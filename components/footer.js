@@ -32,13 +32,13 @@ const Footer = () => {
                 </li>
               </ul>
             </Link>
-            <Link href="/developers">
-              <ul>
-                <li>
-                  <a> Developers Team</a>
-                </li>
-              </ul>
-            </Link>
+            // <Link href="/developers">
+            //   <ul>
+            //     <li>
+            //       <a> Developers Team</a>
+            //     </li>
+            //   </ul>
+            // </Link>
           </div>
         </div>
         <div className={styles.socials}>
